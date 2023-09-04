@@ -1,0 +1,50 @@
+
+
+[RenderInfo]
+ColorSchemeDirectory=STRING:o:\rfsim\image\models\vehicles\Dominion 3D\
+DefaultColorScheme=STRING:ch-47 chinook
+K_AmbientIntensity=FLOAT:2.5
+K_ClipTestEachTriangle=BOOL:No
+K_ShadowScale=INT:2
+K_SortLevel=INT:4
+RealFlightG3Override=STRING:
+XK_FileName=STRING:C:\Users\sjo\Documents\RealFlight 9\Vehicles\CustomModels\CH-47 Chinook\CH-47 Chinook.KEX
+XK_Position=VECTOR3:-34.,-90.,0.
+XK_Scale=INT:1
+XK_ShadeType=STRING:GOURAUD
+XK_Shadow=BOOL:Yes
+XK_ShadowAlways=BOOL:Yes
+X_UseSpecular=BOOL:Yes
+
+[Main]
+AppVersionBuild=UINT64:950068
+Version=INT:1
+
+[EngineInfo1]
+EngineName=STRING:Main Engine
+
+[WingInfo2]
+WingEffec=FLOAT:0.8
+WingName=STRING:Horizontal Tail
+WingType=INT:2
+
+[BaseInfo]
+Comment=STRING:This is an easy flying plane that renders very quickly.  A good mid-wing plane, this simple plane is fun to fly!
+IsHeli=BOOL:Yes
+KnifeEdgeOnly=BOOL:No
+Name_TSTRING=STRING:CH-47 Chinook
+NumEngines=INT:1
+NumServos=INT:5
+NumWings=INT:3
+Type_TSTRING=STRINGARRAY:Airplane~Sport~
+VisualWingspan=INT:76
+
+[WingInfo1]
+WingEffec=FLOAT:0.8
+WingName=STRING:Main Wing
+WingType=INT:0
+
+[WingInfo3]
+WingEffec=FLOAT:0.8
+WingName=STRING:Vertical Tail
+WingType=INT:1

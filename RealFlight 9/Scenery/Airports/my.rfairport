@@ -1,0 +1,71 @@
+
+
+[Environment]
+BloomAmount=FLOAT:1.
+BloomThreshold=FLOAT:0.6
+Enable Water=BOOL:No
+FarHazeDistanceFT=FLOAT:105600.
+ForcePanoHaze=BOOL:No
+ForceSunAngle=BOOL:Yes
+HazeInclinationDEG=FLOAT:5.
+LensFlare=STRING:Default Lens Flare
+LowerSkyColor=BYTECOLOR:201,216,237,255
+MoonAzimuthDEG=FLOAT:180.
+MoonInclinationDEG=FLOAT:-90.
+NearHazeDistanceFT=FLOAT:21120.
+Render Water=BOOL:Yes
+SunAzimuthDEG=FLOAT:90.
+SunHalo=BOOL:Yes
+SunInclinationDEG=FLOAT:90.
+UpperSkyColor=BYTECOLOR:61,102,194,255
+WaterColor=BYTECOLOR:55,86,66,255
+WaterSurfaceAltitudeFT=FLOAT:1000.
+WaterVisibilityFT=FLOAT:50.
+WindDirection=FLOAT:310.
+WindSpeedMPS=FLOAT:0.
+
+[Main]
+AnchorCamera=BOOL:No
+AppVersionBuild=UINT64:950068
+ChosenScene=STRING:PhotoFields
+DeadringerTag=STRING:Deadringer
+DefaultPilotSpawn=STRING:Pilot Spawn
+DescriptionTSTRING=STRING:
+FoliageSeed=INT:0
+InnerFoliageExclusionZoneRadiusFT=FLOAT:1000.
+Material=STRING:
+NextObjectID=INT:2
+OuterFoliageExclusionZoneRadiusFT=FLOAT:1500.
+PhotoField=STRING:
+PhotoFieldFacingDEG=FLOAT:0.
+PhotoFieldFacingXDEG=FLOAT:0.
+PhotoFieldFacingYDEG=FLOAT:0.
+RenderTerrain=BOOL:Yes
+SkyGrid=STRING:Basic Sky Grid
+TerrainDensity=FLOAT:1.
+Version=INT:1
+
+[GroundTexture]
+DefaultTerrainDetail1=STRING:
+DefaultTerrainDetail1FarTexture=STRING:
+DefaultTerrainDetail1NearTexture=STRING:
+DefaultTerrainDetail2=STRING:
+DefaultTerrainDetail2FarTexture=STRING:
+DefaultTerrainDetail2NearTexture=STRING:
+DefaultTerrainGrungeTexture=STRING:Default Grunge
+InnerDetailTextureRadiusFT=FLOAT:1000.
+OuterDetailTextureRadiusFT=FLOAT:1500.
+TerrainDetailModulationOffsetXFT=FLOAT:0.
+TerrainDetailModulationOffsetYFT=FLOAT:0.
+TerrainDetailModulationStrength=FLOAT:0.5
+TerrainDetailModulationTexture=STRING:
+TerrainDetailModulationTileSizeFT=FLOAT:2000.
+TerrainWetTexture1=STRING:
+TerrainWetTexture2=STRING:
+
+[Clouds]
+CloudLayersArray=INTARRAY:
+
+   SUBGROUP[CloudLayersArray]
+   ENDGROUP[CloudLayersArray]
+

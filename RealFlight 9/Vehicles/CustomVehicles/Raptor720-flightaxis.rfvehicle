@@ -1,0 +1,1000 @@
+
+
+[AirplaneSoftwareRadio]
+OutputChannelsArray=INTARRAY:1~2~3~4~5~6~7~8~
+
+   SUBGROUP[OutputChannelsArray]
+
+      SUBGROUP[#1]
+         Expo=FLOAT:0.2
+         ExpoLowRates=FLOAT:0.2
+         InputFeedsArray=INTARRAY:1~2~
+         LowRates=FLOAT:0.6
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:104
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:100
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+
+            SUBGROUP[#2]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:101
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:Yes
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#2]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#1]
+
+
+      SUBGROUP[#2]
+         Expo=FLOAT:0.2
+         ExpoLowRates=FLOAT:0.2
+         InputFeedsArray=INTARRAY:1~2~3~
+         LowRates=FLOAT:0.6
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:104
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:100
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:0.5
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+
+            SUBGROUP[#2]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:101
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:0.5
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#2]
+
+
+            SUBGROUP[#3]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:102
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:Yes
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#3]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#2]
+
+
+      SUBGROUP[#3]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:7~8~9~
+         LowRates=FLOAT:1.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#7]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:100
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:0.33
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#7]
+
+
+            SUBGROUP[#8]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:101
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:0.33
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#8]
+
+
+            SUBGROUP[#9]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:102
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:0.33
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#9]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#3]
+
+
+      SUBGROUP[#4]
+         Expo=FLOAT:0.15
+         ExpoLowRates=FLOAT:0.15
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.5
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:104
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:103
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#4]
+
+
+      SUBGROUP[#5]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:
+         LowRates=FLOAT:0.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#5]
+
+
+      SUBGROUP[#6]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:6~
+         LowRates=FLOAT:1.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:104
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#6]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:105
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:Yes
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#6]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#6]
+
+
+      SUBGROUP[#7]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:106
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:Yes
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#7]
+
+
+      SUBGROUP[#8]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:107
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#8]
+
+   ENDGROUP[OutputChannelsArray]
+
+
+[Main]
+AircraftType=INT:2
+AppVersionBuild=UINT64:950068
+BasedOn=STRING:O:\rfsim\Image\Models\Vehicles\Thunder Tiger Raptor E720 FBL\Thunder Tiger Raptor E720 FBL.bse
+CDName=STRING:RealFlight 6
+CommentTSTRING=STRING:700-size electric helicopter modeled after  Raptor G4 E720’“’“SAB 710mm Blades’“12s, 5000mah Lipo’“11.2 lb AUW’“’“Servo Functions:’“’“* Servo1		Motor1 (FrntLft Servo)’“* Servo2		Motor2 (FrntRght Servo)’“* Servo3		Motor3 (Rear Servo)’“* Servo4		Motor4 (Tail Servo)’“’“Parameter file/setup notes:’“’“* AETR normal control order’“* RC8(SwB) is mode: STABILIZE,LOITER,ACRO’“* RC6(SwD) is motor interlock (idle/normal/throttle up)
+DesignerNotes=STRING:
+DynamicsVersion=INT:600
+EnableDaytimeLights=BOOL:No
+LaunchMethod=INT:1
+Material=STRING:
+PLNVersion=INT:3
+Version=INT:1
+
+[VehicleElectronics]
+NextHR_SIGNAL_GENERATOR_ID=INT:124
+NumReceiverChannels=INT:12
+NumReceiverChannels2=INT:15
+SignalGenerators=INTARRAY:103~111~112~113~123~
+TransmitterType=INT:2
+
+   SUBGROUP[#103]
+      ConnectTo_InternalName=INT:4
+      ServoType=INT:1
+      Speed=FLOAT:0.05
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Tail Rotor Servo
+      Volume=FLOAT:1.
+   ENDGROUP[#103]
+
+
+   SUBGROUP[#111]
+      ConnectTo_InternalName=INT:2
+      ServoType=INT:1
+      Speed=FLOAT:0.08
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Elevator Servo
+      Volume=FLOAT:1.
+   ENDGROUP[#111]
+
+
+   SUBGROUP[#112]
+      ConnectTo_InternalName=INT:1
+      ServoType=INT:1
+      Speed=FLOAT:0.08
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Aileron Servo
+      Volume=FLOAT:1.
+   ENDGROUP[#112]
+
+
+   SUBGROUP[#113]
+      ConnectTo_InternalName=INT:3
+      ServoType=INT:1
+      Speed=FLOAT:0.08
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Pitch Servo
+      Volume=FLOAT:1.
+   ENDGROUP[#113]
+
+
+   SUBGROUP[#123]
+      ConnectTo_InternalName=INT:8
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Throttle Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#123]
+
+
+[BaseObject]
+AvailableItem=STRING:
+CGAdjustmentMTR=VECTOR3:0.,-0.011176,0.042672
+CastShadows=BOOL:Yes
+ChildrenObjectIDs=INTARRAY:
+FadeOutEndDistance=FLOAT:0.
+FadeOutStartDistance=FLOAT:0.
+ForceProjectileCollisions=BOOL:No
+IsCollidable=BOOL:Yes
+Material=STRING:Heli
+NextComponentID=INT:248
+ObjectID=INT:-1
+PhysicsDimensionsOnResetMTR=VECTOR3:0.205072,1.349419,0.322732
+PhysicsScale=FLOAT:1.
+PitchIntertia=FLOAT:0.
+PowerPlantType=INT:4
+RecieveShadows=BOOL:Yes
+RelativePosition=VECTOR3:36.044197,-27.867962,0.009775
+RelativeRotation=VECTOR4:-0.011571,-0.002727,-0.996977,0.076788
+RenderToZBufferOnly=BOOL:No
+RollIntertia=FLOAT:0.
+Scale=FLOAT:1.
+ScriptCodeOnCreate=STRING:
+SnapToGround=BOOL:No
+SortBoost=INT:0
+StabilityModifier=FLOAT:1.
+UserName=STRING:Raptor720-flightaxis
+Visible=BOOL:Yes
+YawIntertia=FLOAT:0.
+
+   SUBGROUP[SoundResonance2]
+      MaxVolume=FLOAT:0.4
+      PitchModifier=FLOAT:1.
+      PlaneResonanceResourceName=STRING:Resonance 1
+      SpeedMaxVolume=FLOAT:84.937599
+      SpeedNoVolume=FLOAT:13.4112
+   ENDGROUP[SoundResonance2]
+
+
+   SUBGROUP[SoundResonance1]
+      MaxVolume=FLOAT:0.25
+      PitchModifier=FLOAT:0.7
+      PlaneResonanceResourceName=STRING:Resonance 4
+      SpeedMaxVolume=FLOAT:59.903358
+      SpeedNoVolume=FLOAT:20.1168
+   ENDGROUP[SoundResonance1]
+
+
+[RootComponent]
+Children=INTARRAY:2~3~4~242~
+ComponentID=INT:1
+ComponentNameTSTRING=STRING:Airframe
+ComponentType=STRING:RootComponent
+
+   SUBGROUP[#2]
+      AerodynamicsPercent=FLOAT:0.
+      AirfoilSide=STRING:NACA 0016
+      AirfoilTop=STRING:NACA 0016
+      AspectRatioFactor=FLOAT:1.
+      BreakBothAtOnce=BOOL:No
+      Children=INTARRAY:13~14~100~236~
+      ComponentID=INT:2
+      ComponentNameTSTRING=STRING:Fuselage
+      ComponentType=STRING:Fuselage
+      DisplacementModifier_0to1=FLOAT:0.8
+      EffectVolume=FLOAT:1.
+      FloodFactor_0to1=FLOAT:0.1
+      FloodTime_SEC=INT:10
+      FrameNameMaster=STRING:RootFrame
+      FrameNameSlave=STRING:<None>
+      FrontalAreaSQMTR=FLOAT:0.016129
+      FrontalDragModification=FLOAT:3.
+      FuseCenterOfLift=FLOAT:1.
+      FuseCenterOfLiftMod_Side=FLOAT:0.
+      FuseCenterOfLiftMod_Top=FLOAT:0.
+      FuseDimensionMTR=VECTOR3:0.11684,0.48768,0.2794
+      FuseHeightIN=FLOAT:0.
+      LocationInParentMTR=VECTOR3:0.,0.293522,-0.024079
+      OffsetMTR=VECTOR3:0.,0.,0.
+      ParasiticDragFactor=FLOAT:1.
+      PostStallDragFactor=FLOAT:1.
+      PostStallLiftFactor=FLOAT:1.
+      PostStallMomentFactor=FLOAT:1.
+      SideAreaSQMTR=FLOAT:0.06129
+      SnapRollBoostFactor=FLOAT:1.
+      StallSeverity=FLOAT:0.
+      StallSeverity_000=FLOAT:1.
+      StrengthMultiplier=FLOAT:1.
+      SymetricalAboutAxis=INT:0
+      WeightKG=FLOAT:0.02835
+      WettedFuselageScale=VECTOR3:1.,1.,1.
+
+      SUBGROUP[#13]
+         Children=INTARRAY:
+         ComponentID=INT:13
+         ComponentNameTSTRING=STRING:Engine
+         ComponentType=STRING:TurbineComponent
+         DownThrustDEG=FLOAT:0.
+         EngineTorusFrame=STRING:~CS_ENGINE1
+         FuelConsumptionOZpMin=FLOAT:8.
+         LocationInParentMTR=VECTOR3:0.,-0.0254,0.
+         MaxRPM=FLOAT:120000.
+         MaxThrustN=FLOAT:57.826893
+         MinRPM=FLOAT:40000.
+         MinThrustN=FLOAT:2.668934
+         RightThrustDEG=FLOAT:0.
+         ServoSmoke=INT:105
+         ServoSmokeRev=BOOL:No
+         ServoThrottle=INT:104
+         ServoThrottleRev=BOOL:No
+         ServoThrottleRevSlave=BOOL:No
+         ServoThrottleSlave=INT:104
+         SoundProfile=STRING:Turbine Engine
+         SpoolUpTimeSec=FLOAT:3.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:1.17934
+
+         SUBGROUP[SmokeInfo]
+            SmokeColor=BYTECOLOR:255,255,255,255
+            SmokeFadeRate=FLOAT:0.5
+            SmokeOpactity=FLOAT:0.15
+            SmokeSize=FLOAT:0.15
+            SmokeTimeBetweenParticles=FLOAT:0.02
+         ENDGROUP[SmokeInfo]
+
+      ENDGROUP[#13]
+
+
+      SUBGROUP[#14]
+         Children=INTARRAY:
+         ComponentID=INT:14
+         ComponentNameTSTRING=STRING:Engine
+         ComponentType=STRING:PulseJetComponent
+         DownThrustDEG=FLOAT:0.
+         EngineTorusFrame=STRING:~CS_ENGINE1
+         LocationInParentMTR=VECTOR3:0.,-0.0254,0.
+         RightThrustDEG=FLOAT:0.
+         ServoSmoke=INT:105
+         ServoSmokeRev=BOOL:No
+         ServoThrottle=INT:104
+         ServoThrottleRev=BOOL:No
+         ServoThrottleRevSlave=BOOL:No
+         ServoThrottleSlave=INT:104
+         SymetricalAboutAxis=INT:0
+         ThrustN=FLOAT:20.
+
+         SUBGROUP[SmokeInfo]
+            SmokeColor=BYTECOLOR:255,255,255,255
+            SmokeFadeRate=FLOAT:0.5
+            SmokeOpactity=FLOAT:0.15
+            SmokeSize=FLOAT:0.15
+            SmokeTimeBetweenParticles=FLOAT:0.02
+         ENDGROUP[SmokeInfo]
+
+      ENDGROUP[#14]
+
+
+      SUBGROUP[#100]
+         Children=INTARRAY:101~189~204~
+         ClockSpinsClockwiseFromRear=BOOL:Yes
+         ComponentID=INT:100
+         ComponentNameTSTRING=STRING:Heli Mechanics
+         ComponentType=STRING:HeliMechanicsComponent
+         Dimension=VECTOR3:0.099568,0.199136,0.132334
+         DownThrustDEG=FLOAT:0.
+         EngineToRotorRatio=FLOAT:9.25
+         EngineVolume=FLOAT:1.
+         FullyDisengagedRPM=FLOAT:4000.
+         FullyEngagedRPM=FLOAT:10000.
+         GearRatio=FLOAT:1.
+         GearboxEffcy=FLOAT:1.
+         HasClutch=BOOL:No
+         HasOneWayBearing=BOOL:Yes
+         IsPusher=BOOL:No
+         LocationInParentMTR=VECTOR3:0.,-0.278892,-0.021946
+         Mass=FLOAT:2.313321
+         RightThrustDEG=FLOAT:0.
+         RightThrustSlaveDEG=FLOAT:0.
+         ServoThrottle=INT:123
+         ServoThrottleRev=BOOL:No
+         ServoThrottleRevSlave=BOOL:No
+         ServoThrottleSlave=INT:0
+         SoundProfile=STRING:Small Brushed Motor with Large Gear Ratio
+         SymetricalAboutAxis=INT:0
+         TorqueGeneratorElectric=STRING:KE 500 kV 700-class Heli Outrunner
+         TorqueGeneratorGas=STRING:O.S. .55 HZ-H Hyper
+         TorqueGeneratorTurboProp=STRING:Lister 2100
+         TorquePercent=FLOAT:1.
+
+         SUBGROUP[#101]
+            AngleOfIncidenceDEG=FLOAT:0.
+            BladeSpinsClockwiseFromAbove=BOOL:Yes
+            Children=INTARRAY:
+            CollectiveConnection=INT:113
+            CollectiveConnectionRev=BOOL:No
+            ComponentID=INT:101
+            ComponentNameTSTRING=STRING:Main Rotor
+            ComponentType=STRING:MainRotorComponent
+            EngineToRotorRatio=FLOAT:9.8
+            FlapAffectingPitchDEG=FLOAT:0.
+            FrictionFactor=FLOAT:1.
+            HasOneWayBearing=BOOL:Yes
+            HeadDampening=FLOAT:1.271588
+            HubAndConnectorWeightsEach=FLOAT:0.00567
+            HubFrameShortName=STRING:2BLADE
+            HubRadiusToFlapHingeMTR=FLOAT:0.02564
+            HubRadiusToLeadLagMTR=FLOAT:0.067056
+            HubType=INT:0
+            InitialPhaseAngleOffset=FLOAT:0.
+            LocationInParentMTR=VECTOR3:0.,-0.01463,0.246583
+            MaxCollectiveDEG=FLOAT:13.
+            MaxFlapAngleDEG=FLOAT:0.
+            MinCollectiveDEG=FLOAT:-13.
+            MinFlapAngleDEG=FLOAT:0.
+            NumBlades=INT:2
+            ParasiticDragFactor=FLOAT:1.
+            PitchConnection=INT:111
+            PitchConnectionRev=BOOL:Yes
+            PitchDeflectionDEG=FLOAT:10.
+            PostStallDragFactor=FLOAT:1.
+            PostStallLiftFactor=FLOAT:1.
+            PostStallMomentFactor=FLOAT:1.
+            PropVisualScale=FLOAT:1.
+            RollConnection=INT:112
+            RollConnectionRev=BOOL:No
+            RollDeflectionDEG=FLOAT:10.
+            RotorBladeType=STRING:SAB 710 mm
+            RotorDirection=INT:0
+            RotorSoundType=STRING:Rotor Blades 60
+            RotorSoundVolume=FLOAT:0.75
+            SnapRollBoostFactor=FLOAT:1.
+            StallSeverity=FLOAT:0.
+            StallSeverity_000=FLOAT:1.
+            StaticConeAngleDEG=FLOAT:0.
+            StrengthMultiplier=FLOAT:1.
+            SwashPlatePhaseAdjustment=FLOAT:0.
+            SymetricalAboutAxis=INT:0
+            VisualBladeType=STRING:Rave 90
+         ENDGROUP[#101]
+
+
+         SUBGROUP[#189]
+            BreakBothAtOnce=BOOL:No
+            Children=INTARRAY:
+            ComponentID=INT:189
+            ComponentNameTSTRING=STRING:Skids
+            ComponentType=STRING:HeliSkid
+            DisplacementModifier_0to1=FLOAT:0.6
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.9
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_RIGHTSKID
+            FrameNameSlave=STRING:~CS_LEFTSKID
+            GearLengthMTR=FLOAT:0.100454
+            GearWidthMTR=FLOAT:0.265136
+            LocationInParentMTR=VECTOR3:0.018288,0.195682,-0.106375
+            RotationAboutY=FLOAT:60.
+            Stiffness=FLOAT:1.
+            StrengthMultiplier=FLOAT:0.75
+            SymetricalAboutAxis=INT:2
+            WeightKG=FLOAT:0.113398
+         ENDGROUP[#189]
+
+
+         SUBGROUP[#204]
+            BoomDiameterMTR=FLOAT:0.026
+            BoomLengthMTR=FLOAT:0.8148
+            BreakBothAtOnce=BOOL:No
+            Children=INTARRAY:205~
+            ComponentID=INT:204
+            ComponentNameTSTRING=STRING:Tail Boom
+            ComponentType=STRING:TailBoomComponent
+            DisplacementModifier_0to1=FLOAT:0.2
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.75
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_TAILBOOM1
+            FrameNameSlave=STRING:<None>
+            LocationInParentMTR=VECTOR3:0.,-0.115214,0.051511
+            StrengthMultiplier=FLOAT:1.
+            SymetricalAboutAxis=INT:0
+            WeightKG=FLOAT:0.283495
+
+            SUBGROUP[#205]
+               AirfoilName=STRING:NACA 0016
+               Children=INTARRAY:
+               ClockwiseDeflection=FLOAT:45.
+               ComponentID=INT:205
+               ComponentNameTSTRING=STRING:Tail Rotor
+               ComponentType=STRING:TailRotorComponent
+               CounterClockwiseDeflection=FLOAT:35.
+               DriveTrainEffcy=FLOAT:1.
+               FrictionFactor=FLOAT:0.1
+               HubFrameShortName=STRING:2BLADE
+               LocationInParentMTR=VECTOR3:0.056083,-0.840334,0.00061
+               NumBlades=INT:2
+               ParasiticDragFactor=FLOAT:1.
+               PercentDrivenInAutos=FLOAT:1.
+               PitchConnection=INT:103
+               PitchConnectionRev=BOOL:No
+               PostStallDragFactor=FLOAT:1.
+               PostStallLiftFactor=FLOAT:1.
+               PostStallMomentFactor=FLOAT:1.
+               ReverseDirection=BOOL:No
+               RotationAroundYDEG=FLOAT:0.
+               SnapRollBoostFactor=FLOAT:1.
+               StallSeverity=FLOAT:0.
+               StallSeverity_000=FLOAT:1.
+               StrengthMultiplier=FLOAT:1.
+               SymetricalAboutAxis=INT:0
+               TailRotatesAgainstDownwash=BOOL:Yes
+               TailRotorChordAtRoot=FLOAT:0.03175
+               TailRotorChordAtTip=FLOAT:0.03175
+               TailRotorDiameter=FLOAT:0.2794
+               TailRotorSoundType=STRING:Default Tail Rotor
+               TailRotorVolume=FLOAT:0.65
+               TailToMainRatio=FLOAT:4.67
+               VisualBladeType=STRING:Carbon Fiber
+               WeightOfSingleBladeKG=FLOAT:0.008505
+            ENDGROUP[#205]
+
+         ENDGROUP[#204]
+
+      ENDGROUP[#100]
+
+
+      SUBGROUP[#236]
+         AerodynamicsPercent=FLOAT:1.
+         AirfoilSide=STRING:Heli Fuselage
+         AirfoilTop=STRING:Heli Fuselage
+         AspectRatioFactor=FLOAT:0.25
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:236
+         ComponentNameTSTRING=STRING:Canopy
+         ComponentType=STRING:Fuselage
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_CANOPY
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:0.25
+         FuseCenterOfLift=FLOAT:0.5
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.3
+         FuseDimensionMTR=VECTOR3:0.13716,0.54356,0.25146
+         LocationInParentMTR=VECTOR3:0.,0.140513,-0.006096
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallLiftFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:0.35
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.141748
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+      ENDGROUP[#236]
+
+   ENDGROUP[#2]
+
+
+   SUBGROUP[#3]
+      CapacityOZ=FLOAT:21.000008
+      Children=INTARRAY:
+      ComponentID=INT:3
+      ComponentNameTSTRING=STRING:Main Fuel Tank
+      ComponentType=STRING:FuelStoredEnergy
+      FuelTankHeight=FLOAT:0.122298
+      FuelTankMass=FLOAT:0.113398
+      FuelTankSize=FLOAT:6.
+      FuelTankWidth=FLOAT:0.071374
+      LocationInParentMTR=VECTOR3:0.,-0.033833,-0.103937
+      SymetricalAboutAxis=INT:0
+   ENDGROUP[#3]
+
+
+   SUBGROUP[#4]
+      CellType=STRING:LiPoly 5000 mah 65C
+      Children=INTARRAY:
+      ComponentID=INT:4
+      ComponentNameTSTRING=STRING:Main Battery
+      ComponentType=STRING:BatteryStoredEnergy
+      DimensionsMTR=VECTOR3:0.039624,0.15494,0.110744
+      LocationInParentMTR=VECTOR3:0.,0.065227,-0.093574
+      NumCellsInParallel=INT:1
+      NumCellsInSeries=INT:12
+      SpeedControllerCurrentLimit_AMPS=FLOAT:200.
+      SpeedControllerResistanceOHMS=FLOAT:0.003
+      SymetricalAboutAxis=INT:0
+   ENDGROUP[#4]
+
+
+   SUBGROUP[#242]
+      Children=INTARRAY:
+      ComponentID=INT:242
+      ComponentNameTSTRING=STRING:Inspection Camera
+      ComponentType=STRING:CameraComponent
+      CurrentStabilization=INT:0
+      ExcludedFrames=STRING:
+      FixedFieldOfView=INT:90
+      ForegroundFrames=STRING:
+      GimbalFollowDeadband=FLOAT:5.
+      GimbalFollowGain=FLOAT:3.
+      GimbalFollowMaxRate=FLOAT:220.
+      GimbalFollowYaw=BOOL:Yes
+      GimbalPitchControl=INT:0
+      GimbalPitchReverse=BOOL:No
+      GimbalRotationCenter=VECTOR3:0.,0.,0.
+      GimbalRotationMaximum=VECTOR3:0.,0.,0.
+      GimbalRotationMinimum=VECTOR3:0.,0.,0.
+      GimbalStabilizionEnabled=BOOL:No
+      GimbalYawControl=INT:0
+      GimbalYawReverse=BOOL:No
+      HeadTrackingEnabled=BOOL:No
+      LocationInParentMTR=VECTOR3:0.3048,0.3048,0.3048
+      MaximumFieldOfView=INT:120
+      MinimumFieldOfView=INT:30
+      NearPlaneDistanceMTR=FLOAT:0.03048
+      PanAngleDEG=FLOAT:225.
+      PanAngleSlaveDEG=FLOAT:0.
+      PitchFrame=STRING:<None>
+      RollFrame=STRING:<None>
+      RotationAngleDEG=FLOAT:0.
+      ShockMountEnabled=BOOL:No
+      ShockMountGLimit=VECTOR3:3.,3.,6.
+      ShockMountRange=VECTOR3:0.025,0.025,0.025
+      SymetricalAboutAxis=INT:0
+      TiltAngleDEG=FLOAT:-25.
+      VRScalingPercent=FLOAT:1.
+      YawFrame=STRING:<None>
+      ZoomControlMethod=INT:2
+      ZoomServo=INT:0
+      ZoomServoRev=BOOL:No
+      ZoomServoRevSlave=BOOL:No
+      ZoomServoSlave=INT:0
+   ENDGROUP[#242]
+
+
+[PlaneData]
+PLNVersion=INT:3
+
+[Transmitter]
+UseOwnRadio=BOOL:No
+UseSoftwareRadio=BOOL:Yes

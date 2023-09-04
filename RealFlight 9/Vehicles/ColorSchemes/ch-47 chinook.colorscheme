@@ -1,0 +1,19 @@
+
+
+[Main]
+AppVersionBuild=UINT64:950068
+BaseVehicle=STRING:CH-47 Chinook
+BlurEnabled=BOOL:No
+DDSFileName=STRING:C:\Users\sjo\Documents\RealFlight 9\Vehicles\CustomModels\CH-47 Chinook\ch-47 chinook.dds
+GlowEnabled=BOOL:No
+NormalMap=STRING:C:\Users\sjo\Documents\RealFlight 9\Vehicles\CustomModels\CH-47 Chinook\ch-47 chinook_n.tga
+PowerReflectiveOff=FLOAT:15.
+PowerReflectiveOn=FLOAT:20.
+PowerSpecularOff=FLOAT:70.
+PowerSpecularOn=FLOAT:55.
+Reflectivity=FLOAT:0.35
+Specular=FLOAT:1.
+SpecularMap=STRING:C:\Users\sjo\Documents\RealFlight 9\Vehicles\CustomModels\CH-47 Chinook\ch-47 chinook_s.tga
+TGAFileName=STRING:C:\Users\sjo\Documents\RealFlight 9\Vehicles\CustomModels\CH-47 Chinook\ch-47 chinook.tga
+TexturePath=STRING:C:\Users\sjo\Documents\RealFlight 9\Vehicles\CustomModels\CH-47 Chinook
+Version=INT:1

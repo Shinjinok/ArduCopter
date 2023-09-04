@@ -1,0 +1,2105 @@
+
+
+[AirplaneSoftwareRadio]
+OutputChannelsArray=INTARRAY:1~2~3~4~5~6~7~8~
+
+   SUBGROUP[OutputChannelsArray]
+
+      SUBGROUP[#1]
+         Expo=FLOAT:0.2
+         ExpoLowRates=FLOAT:0.2
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.6
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:1
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:104
+            WhenLogic=INT:4
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:100
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#1]
+
+
+      SUBGROUP[#2]
+         Expo=FLOAT:0.2
+         ExpoLowRates=FLOAT:0.2
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.6
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:1
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:104
+            WhenLogic=INT:4
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:101
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#2]
+
+
+      SUBGROUP[#3]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:6~
+         LowRates=FLOAT:1.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:1
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:1
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#6]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:102
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#6]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#3]
+
+
+      SUBGROUP[#4]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:1~2~
+         LowRates=FLOAT:1.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:1
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:104
+            WhenLogic=INT:4
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:103
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:0.9
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:-0.5
+                  Value2=FLOAT:0.
+                  WhenInput=INT:107
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+
+            SUBGROUP[#2]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:103
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#2]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#4]
+
+
+      SUBGROUP[#5]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:
+         LowRates=FLOAT:0.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#5]
+
+
+      SUBGROUP[#6]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:107
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#6]
+
+
+      SUBGROUP[#7]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:
+               CurveOutputValues=FLOATARRAY:
+               InputChannel=INT:106
+               InputFeedType=INT:1
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#7]
+
+
+      SUBGROUP[#8]
+         Expo=FLOAT:0.
+         ExpoLowRates=FLOAT:0.
+         InputFeedsArray=INTARRAY:1~
+         LowRates=FLOAT:0.
+         Trim=FLOAT:0.
+
+         SUBGROUP[ExpoWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[ExpoWhen]
+
+
+         SUBGROUP[LowRatesActivatedWhen]
+            Value1=FLOAT:0.
+            Value2=FLOAT:0.
+            WhenInput=INT:100
+            WhenLogic=INT:0
+         ENDGROUP[LowRatesActivatedWhen]
+
+
+         SUBGROUP[InputFeedsArray]
+
+            SUBGROUP[#1]
+               CurveInputValues=FLOATARRAY:-1.~0.~1.~
+               CurveOutputValues=FLOATARRAY:1.~0.~-1.~
+               InputChannel=INT:105
+               InputFeedType=INT:2
+               InputName=STRING:Input
+               Logic=INT:0
+               SimpleMaxPercent=FLOAT:1.
+               SimpleReversed=BOOL:No
+
+               SUBGROUP[InputActivatedWhen]
+                  Value1=FLOAT:0.
+                  Value2=FLOAT:0.
+                  WhenInput=INT:100
+                  WhenLogic=INT:1
+               ENDGROUP[InputActivatedWhen]
+
+            ENDGROUP[#1]
+
+         ENDGROUP[InputFeedsArray]
+
+      ENDGROUP[#8]
+
+   ENDGROUP[OutputChannelsArray]
+
+
+[Main]
+AircraftType=INT:2
+AppVersionBuild=UINT64:950068
+BasedOn=STRING:CH-47 Chinook
+CDName=STRING:RealFlight G2
+CommentTSTRING=STRING:The Boeing CH-47 Chinook is a versatile, twin-engine, tandem rotor heavy-lift helicopter. Its top speed of 170 knots (196 mph, 315 km/h) was faster than utility and attack helicopters of the 1960s and even many of today. Its primary roles include troop movement, artillery emplacement and battlefield resupply.’“3d model and colourscheme by Mark(Inky00)England’“Physics model by Inky00 and SweetWater.’“3 pos switch operates either the front winch operators door or the main loading bay door at the rear.’“The smoke switch operates the pilots and co-pilots doors.’“The rotory knob  raises and lowers rear troop seats.This heli has fully working controls in the cockpit including flight yokes,rudder pedals and throttle lever.I hope you enjoy it as much as enjoyed making it.’“
+DesignerNotes=STRING:
+EnableDaytimeLights=BOOL:No
+LaunchMethod=INT:1
+Material=STRING:
+PLNVersion=INT:3
+Version=INT:1
+
+[VehicleElectronics]
+NextHR_SIGNAL_GENERATOR_ID=INT:149
+NumReceiverChannels=INT:12
+NumReceiverChannels2=INT:15
+SignalGenerators=INTARRAY:121~123~124~125~126~127~129~130~133~134~135~136~137~138~139~140~141~142~143~144~145~147~148~
+TransmitterType=INT:2
+
+   SUBGROUP[#121]
+      ArrestingGain=FLOAT:0.62
+      ArrestingRelGain=FLOAT:1.
+      ConnectToControl_InternalName=INT:4
+      ConnectToGain_InternalName=INT:0
+      GyroAxis=INT:2
+      HeadingHoldGain=FLOAT:0.35
+      HeadingHoldMaxAcelleration=FLOAT:800.
+      HeadingHoldMix=FLOAT:0.
+      HeadingHoldPirouetteRateDEGpSEC=FLOAT:55.
+      HeadingHoldRange=FLOAT:15.
+      HeadingHoldRelGain=FLOAT:1.
+      InOutFeedForward=FLOAT:0.
+      MasterControlOverride=FLOAT:0.5
+      OutputGain=FLOAT:1.
+      RateGyroGain=FLOAT:0.75
+      ReverseGyroOutput=BOOL:Yes
+      Type=STRING:Gyro
+      UserNameTSTRING=STRING:Yaw Gyro
+   ENDGROUP[#121]
+
+
+   SUBGROUP[#123]
+      ConnectTo1_InternalName=INT:121
+      ConnectTo2_InternalName=INT:141
+      Logic=INT:0
+      Reverse1=BOOL:No
+      Reverse2=BOOL:No
+      Strength1=FLOAT:1.
+      Strength2=FLOAT:1.
+      Type=STRING:ServoMixer
+      UserNameTSTRING=STRING:Front Roll Yaw Mix
+   ENDGROUP[#123]
+
+
+   SUBGROUP[#124]
+      ConnectTo1_InternalName=INT:121
+      ConnectTo2_InternalName=INT:141
+      Logic=INT:0
+      Reverse1=BOOL:Yes
+      Reverse2=BOOL:No
+      Strength1=FLOAT:1.
+      Strength2=FLOAT:1.
+      Type=STRING:ServoMixer
+      UserNameTSTRING=STRING:Rear Roll Yaw Mix
+   ENDGROUP[#124]
+
+
+   SUBGROUP[#125]
+      ActivatedWhenThrottleAbove=FLOAT:-0.3
+      ComponentIDToGovern=INT:284
+      ComponentSymmetricalRelation=INT:0
+      Gain=FLOAT:1.
+      OnOffControl_InternalName=INT:0
+      RPM at Center=FLOAT:1450.
+      RPM at High=FLOAT:1500.
+      RPM at Low=FLOAT:1200.
+      RPMControl_InternalName=INT:0
+      ThrottleControl_InternalName=INT:3
+      Type=STRING:Govenor
+      UserNameTSTRING=STRING:Front Headspeed Governor
+   ENDGROUP[#125]
+
+
+   SUBGROUP[#126]
+      ActivatedWhenThrottleAbove=FLOAT:-0.3
+      ComponentIDToGovern=INT:100
+      ComponentSymmetricalRelation=INT:0
+      Gain=FLOAT:1.
+      OnOffControl_InternalName=INT:0
+      RPM at Center=FLOAT:1450.
+      RPM at High=FLOAT:1500.
+      RPM at Low=FLOAT:1200.
+      RPMControl_InternalName=INT:0
+      ThrottleControl_InternalName=INT:3
+      Type=STRING:Govenor
+      UserNameTSTRING=STRING:Rear Headspeed Governor
+   ENDGROUP[#126]
+
+
+   SUBGROUP[#127]
+      ArrestingGain=FLOAT:0.3
+      ArrestingRelGain=FLOAT:1.
+      ConnectToControl_InternalName=INT:2
+      ConnectToGain_InternalName=INT:0
+      GyroAxis=INT:0
+      HeadingHoldGain=FLOAT:0.8
+      HeadingHoldMaxAcelleration=FLOAT:1000.
+      HeadingHoldMix=FLOAT:1.
+      HeadingHoldPirouetteRateDEGpSEC=FLOAT:100.
+      HeadingHoldRange=FLOAT:15.
+      HeadingHoldRelGain=FLOAT:1.
+      InOutFeedForward=FLOAT:0.
+      MasterControlOverride=FLOAT:0.
+      OutputGain=FLOAT:1.
+      RateGyroGain=FLOAT:0.5
+      ReverseGyroOutput=BOOL:Yes
+      Type=STRING:Gyro
+      UserNameTSTRING=STRING:Pitch Gyro
+   ENDGROUP[#127]
+
+
+   SUBGROUP[#129]
+      ConnectTo1_InternalName=INT:3
+      ConnectTo2_InternalName=INT:127
+      Logic=INT:0
+      Reverse1=BOOL:No
+      Reverse2=BOOL:No
+      Strength1=FLOAT:1.
+      Strength2=FLOAT:1.
+      Type=STRING:ServoMixer
+      UserNameTSTRING=STRING:Front Collective Mix
+   ENDGROUP[#129]
+
+
+   SUBGROUP[#130]
+      ConnectTo1_InternalName=INT:3
+      ConnectTo2_InternalName=INT:127
+      Logic=INT:0
+      Reverse1=BOOL:No
+      Reverse2=BOOL:No
+      Strength1=FLOAT:1.
+      Strength2=FLOAT:1.
+      Type=STRING:ServoMixer
+      UserNameTSTRING=STRING:Rear Collective Mix
+   ENDGROUP[#130]
+
+
+   SUBGROUP[#133]
+      ConnectTo_InternalName=INT:123
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Front Roll Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#133]
+
+
+   SUBGROUP[#134]
+      ConnectTo_InternalName=INT:124
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Rear Roll Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#134]
+
+
+   SUBGROUP[#135]
+      ConnectTo_InternalName=INT:3
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Front Collective Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#135]
+
+
+   SUBGROUP[#136]
+      ConnectTo_InternalName=INT:3
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Rear Collective Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#136]
+
+
+   SUBGROUP[#137]
+      ConnectTo_InternalName=INT:127
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Front Pitch Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#137]
+
+
+   SUBGROUP[#138]
+      ConnectTo_InternalName=INT:127
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Rear Pitch Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#138]
+
+
+   SUBGROUP[#139]
+      ConnectTo_InternalName=INT:125
+      ServoType=INT:1
+      Speed=FLOAT:0.01
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Front Throttle Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#139]
+
+
+   SUBGROUP[#140]
+      ConnectTo_InternalName=INT:126
+      ServoType=INT:1
+      Speed=FLOAT:0.01
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Rear Throttle Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#140]
+
+
+   SUBGROUP[#141]
+      ArrestingGain=FLOAT:0.3
+      ArrestingRelGain=FLOAT:1.
+      ConnectToControl_InternalName=INT:1
+      ConnectToGain_InternalName=INT:0
+      GyroAxis=INT:1
+      HeadingHoldGain=FLOAT:0.4
+      HeadingHoldMaxAcelleration=FLOAT:1000.
+      HeadingHoldMix=FLOAT:0.
+      HeadingHoldPirouetteRateDEGpSEC=FLOAT:100.
+      HeadingHoldRange=FLOAT:15.
+      HeadingHoldRelGain=FLOAT:1.
+      InOutFeedForward=FLOAT:0.
+      MasterControlOverride=FLOAT:0.4
+      OutputGain=FLOAT:1.
+      RateGyroGain=FLOAT:0.5
+      ReverseGyroOutput=BOOL:No
+      Type=STRING:Gyro
+      UserNameTSTRING=STRING:Roll Gyro
+   ENDGROUP[#141]
+
+
+   SUBGROUP[#142]
+      ConnectTo_InternalName=INT:6
+      ServoType=INT:1
+      Speed=FLOAT:1.5
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Door Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#142]
+
+
+   SUBGROUP[#143]
+      ConnectTo_InternalName=INT:7
+      ServoType=INT:1
+      Speed=FLOAT:1.5
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Front doors
+      Volume=FLOAT:0.
+   ENDGROUP[#143]
+
+
+   SUBGROUP[#144]
+      ConnectTo_InternalName=INT:4
+      ServoType=INT:1
+      Speed=FLOAT:0.3
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Rudder Pedal Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#144]
+
+
+   SUBGROUP[#145]
+      ConnectTo_InternalName=INT:1
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Roll Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#145]
+
+
+   SUBGROUP[#147]
+      ConnectTo_InternalName=INT:8
+      ServoType=INT:1
+      Speed=FLOAT:1.5
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Winch Door Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#147]
+
+
+   SUBGROUP[#148]
+      ConnectTo_InternalName=INT:8
+      ServoType=INT:1
+      Speed=FLOAT:0.1
+      Type=STRING:PhysicalServo
+      UserNameTSTRING=STRING:Rear Seat Servo
+      Volume=FLOAT:0.
+   ENDGROUP[#148]
+
+
+[BaseObject]
+AvailableItem=STRING:
+CGAdjustmentMTR=VECTOR3:0.,0.0254,0.
+CastShadows=BOOL:Yes
+ChildrenObjectIDs=INTARRAY:
+FadeOutEndDistance=FLOAT:0.
+FadeOutStartDistance=FLOAT:0.
+ForceProjectileCollisions=BOOL:No
+IsCollidable=BOOL:Yes
+Material=STRING:Generic
+NextComponentID=INT:518
+ObjectID=INT:-1
+PhysicsDimensionsOnResetMTR=VECTOR3:0.259166,1.068099,0.372621
+PhysicsScale=FLOAT:1.1
+PitchIntertia=FLOAT:0.
+PowerPlantType=INT:4
+RecieveShadows=BOOL:Yes
+RelativePosition=VECTOR3:-339.489014,-555.225037,0.576588
+RelativeRotation=VECTOR4:0.,0.,-0.443147,0.896449
+RenderToZBufferOnly=BOOL:No
+RollIntertia=FLOAT:0.
+Scale=FLOAT:1.1
+ScriptCodeOnCreate=STRING:
+SnapToGround=BOOL:No
+SortBoost=INT:0
+StabilityModifier=FLOAT:1.
+UserName=STRING:CH-47 Chinook SweetWater mod
+Visible=BOOL:Yes
+YawIntertia=FLOAT:0.
+
+   SUBGROUP[SoundResonance2]
+      MaxVolume=FLOAT:0.4
+      PitchModifier=FLOAT:1.
+      PlaneResonanceResourceName=STRING:Resonance 1
+      SpeedMaxVolume=FLOAT:84.937599
+      SpeedNoVolume=FLOAT:13.4112
+   ENDGROUP[SoundResonance2]
+
+
+   SUBGROUP[SoundResonance1]
+      MaxVolume=FLOAT:0.25
+      PitchModifier=FLOAT:0.7
+      PlaneResonanceResourceName=STRING:Resonance 4
+      SpeedMaxVolume=FLOAT:59.903358
+      SpeedNoVolume=FLOAT:20.1168
+   ENDGROUP[SoundResonance1]
+
+
+[RootComponent]
+Children=INTARRAY:2~3~4~498~
+ComponentID=INT:1
+ComponentNameTSTRING=STRING:Airframe
+ComponentType=STRING:RootComponent
+
+   SUBGROUP[#2]
+      AerodynamicsPercent=FLOAT:1.
+      AirfoilSide=STRING:NACA 0016
+      AirfoilTop=STRING:NACA 0016
+      AspectRatioFactor=FLOAT:1.
+      BreakBothAtOnce=BOOL:No
+      Children=INTARRAY:13~14~100~284~343~371~387~388~403~419~450~451~452~453~468~483~501~
+      ComponentID=INT:2
+      ComponentNameTSTRING=STRING:Fuselage
+      ComponentType=STRING:Fuselage
+      DisplacementModifier_0to1=FLOAT:0.8
+      EffectVolume=FLOAT:1.
+      FloodFactor_0to1=FLOAT:0.1
+      FloodTime_SEC=INT:10
+      FrameNameMaster=STRING:RootFrame
+      FrameNameSlave=STRING:<None>
+      FrontalAreaSQMTR=FLOAT:0.016129
+      FrontalDragModification=FLOAT:3.5
+      FuseCenterOfLift=FLOAT:1.
+      FuseCenterOfLiftMod_Side=FLOAT:0.
+      FuseCenterOfLiftMod_Top=FLOAT:0.
+      FuseDimensionMTR=VECTOR3:0.19812,1.0668,0.19812
+      FuseHeightIN=FLOAT:0.
+      LocationInParentMTR=VECTOR3:0.,0.5049,0.0055
+      OffsetMTR=VECTOR3:0.,0.,0.
+      ParasiticDragFactor=FLOAT:1.
+      PostStallDragFactor=FLOAT:1.
+      PostStallLiftFactor=FLOAT:1.
+      PostStallMomentFactor=FLOAT:1.
+      SideAreaSQMTR=FLOAT:0.06129
+      SnapRollBoostFactor=FLOAT:1.
+      StallSeverity=FLOAT:0.
+      StallSeverity_000=FLOAT:1.
+      StrengthMultiplier=FLOAT:1.
+      SymetricalAboutAxis=INT:0
+      WeightKG=FLOAT:3.311224
+      WettedFuselageScale=VECTOR3:1.,1.,1.
+
+      SUBGROUP[#13]
+         Children=INTARRAY:
+         ComponentID=INT:13
+         ComponentNameTSTRING=STRING:Engine
+         ComponentType=STRING:TurbineComponent
+         DownThrustDEG=FLOAT:0.
+         EngineTorusFrame=STRING:~CS_ENGINE1
+         EngineVolume=FLOAT:1.
+         FuelConsumptionOZpMin=FLOAT:8.
+         IsPusher=BOOL:No
+         LocationInParentMTR=VECTOR3:0.,-0.0254,0.
+         MaxFuelConsumptionOZpMinRPM=FLOAT:10.
+         MaxRPM=FLOAT:120000.
+         MaxThrustN=FLOAT:57.826893
+         MinRPM=FLOAT:40000.
+         MinThrustN=FLOAT:2.668934
+         RightThrustDEG=FLOAT:0.
+         RightThrustSlaveDEG=FLOAT:0.
+         ServoSmoke=INT:105
+         ServoSmokeRev=BOOL:No
+         ServoThrottle=INT:104
+         ServoThrottleRev=BOOL:No
+         ServoThrottleRevSlave=BOOL:No
+         ServoThrottleSlave=INT:104
+         SoundProfile=STRING:Turbine Engine
+         SpoolUpTimeSec=FLOAT:3.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:1.17934
+
+         SUBGROUP[SmokeInfo]
+            SmokeColor=BYTECOLOR:255,255,255,255
+            SmokeFadeRate=FLOAT:0.5
+            SmokeOpactity=FLOAT:0.15
+            SmokeSize=FLOAT:0.15
+            SmokeTimeBetweenParticles=FLOAT:0.02
+         ENDGROUP[SmokeInfo]
+
+      ENDGROUP[#13]
+
+
+      SUBGROUP[#14]
+         Children=INTARRAY:
+         ComponentID=INT:14
+         ComponentNameTSTRING=STRING:Engine
+         ComponentType=STRING:PulseJetComponent
+         DownThrustDEG=FLOAT:0.
+         EngineTorusFrame=STRING:~CS_ENGINE1
+         LocationInParentMTR=VECTOR3:0.,-0.0254,0.
+         RightThrustDEG=FLOAT:0.
+         ServoSmoke=INT:105
+         ServoSmokeRev=BOOL:No
+         ServoThrottle=INT:104
+         ServoThrottleRev=BOOL:No
+         ServoThrottleRevSlave=BOOL:No
+         ServoThrottleSlave=INT:104
+         SymetricalAboutAxis=INT:0
+         ThrustN=FLOAT:20.
+
+         SUBGROUP[SmokeInfo]
+            SmokeColor=BYTECOLOR:255,255,255,255
+            SmokeFadeRate=FLOAT:0.5
+            SmokeOpactity=FLOAT:0.15
+            SmokeSize=FLOAT:0.15
+            SmokeTimeBetweenParticles=FLOAT:0.02
+         ENDGROUP[SmokeInfo]
+
+      ENDGROUP[#14]
+
+
+      SUBGROUP[#100]
+         Children=INTARRAY:101~
+         ClockSpinsClockwiseFromRear=BOOL:Yes
+         ComponentID=INT:100
+         ComponentNameTSTRING=STRING:Rear Mechanics
+         ComponentType=STRING:HeliMechanicsComponent
+         Dimension=VECTOR3:0.04,0.22,0.11
+         DownThrustDEG=FLOAT:0.
+         EngineToRotorRatio=FLOAT:10.
+         EngineVolume=FLOAT:0.4
+         FullyDisengagedRPM=FLOAT:4000.
+         FullyEngagedRPM=FLOAT:10000.
+         GearRatio=FLOAT:1.
+         GearboxEffcy=FLOAT:1.
+         HasClutch=BOOL:No
+         HasOneWayBearing=BOOL:Yes
+         IsPusher=BOOL:No
+         LocationInParentMTR=VECTOR3:0.,-0.8987,0.1309
+         Mass=FLOAT:1.276728
+         RightThrustDEG=FLOAT:0.
+         RightThrustSlaveDEG=FLOAT:0.
+         ServoThrottle=INT:140
+         ServoThrottleRev=BOOL:No
+         ServoThrottleRevSlave=BOOL:No
+         ServoThrottleSlave=INT:0
+         SoundProfile=STRING:Large Brushless with Planetary Gearbox
+         SymetricalAboutAxis=INT:0
+         TorqueGeneratorElectric=STRING:Hacker C50 9XL
+         TorqueGeneratorGas=STRING:Super Tigre G34 Heli with Tuned Pipe
+         TorqueGeneratorTurboProp=STRING:Lister 2100
+         TorquePercent=FLOAT:1.
+
+         SUBGROUP[#101]
+            AngleOfIncidenceDEG=FLOAT:0.
+            BladeSpinsClockwiseFromAbove=BOOL:Yes
+            Children=INTARRAY:
+            CollectiveConnection=INT:136
+            CollectiveConnectionRev=BOOL:No
+            ComponentID=INT:101
+            ComponentNameTSTRING=STRING:Rear Rotor
+            ComponentType=STRING:MainRotorComponent
+            EngineToRotorRatio=FLOAT:9.8
+            FlapAffectingPitchDEG=FLOAT:0.
+            FrictionFactor=FLOAT:1.
+            HasOneWayBearing=BOOL:Yes
+            HeadDampening=FLOAT:2.592628
+            HubAndConnectorWeightsEach=FLOAT:0.01
+            HubFrameShortName=STRING:3REARBLADE
+            HubRadiusToFlapHingeMTR=FLOAT:0.0154
+            HubRadiusToLeadLagMTR=FLOAT:0.0363
+            HubType=INT:0
+            InitialPhaseAngleOffset=FLOAT:119.999542
+            LocationInParentMTR=VECTOR3:0.,-0.0253,0.1056
+            MaxCollectiveDEG=FLOAT:10.
+            MaxFlapAngleDEG=FLOAT:3.
+            MinCollectiveDEG=FLOAT:-2.
+            MinFlapAngleDEG=FLOAT:-3.
+            NumBlades=INT:2
+            ParasiticDragFactor=FLOAT:1.
+            PitchConnection=INT:138
+            PitchConnectionRev=BOOL:No
+            PitchDeflectionDEG=FLOAT:8.
+            PostStallDragFactor=FLOAT:1.
+            PostStallLiftFactor=FLOAT:1.
+            PostStallMomentFactor=FLOAT:1.
+            PropVisualScale=FLOAT:1.
+            RollConnection=INT:134
+            RollConnectionRev=BOOL:No
+            RollDeflectionDEG=FLOAT:8.
+            RotorBladeType=STRING:CH-47 Blades
+            RotorDirection=INT:1
+            RotorSoundType=STRING:Rotor Blades 60
+            RotorSoundVolume=FLOAT:1.
+            SnapRollBoostFactor=FLOAT:1.
+            StallSeverity=FLOAT:0.
+            StallSeverity_000=FLOAT:1.
+            StaticConeAngleDEG=FLOAT:3.500003
+            StrengthMultiplier=FLOAT:1.
+            SwashPlatePhaseAdjustment=FLOAT:0.
+            SymetricalAboutAxis=INT:0
+            VisualBladeType=STRING:Scale MD500E
+         ENDGROUP[#101]
+
+      ENDGROUP[#100]
+
+
+      SUBGROUP[#284]
+         Children=INTARRAY:264~
+         ComponentID=INT:284
+         ComponentNameTSTRING=STRING:Front Mechanics
+         ComponentType=STRING:HeliMechanicsComponent
+         Dimension=VECTOR3:0.03,0.088,0.05
+         DownThrustDEG=FLOAT:0.
+         EngineToRotorRatio=FLOAT:10.
+         EngineVolume=FLOAT:0.4
+         FullyDisengagedRPM=FLOAT:4000.
+         FullyEngagedRPM=FLOAT:10000.
+         GearRatio=FLOAT:1.
+         GearboxEffcy=FLOAT:1.
+         HasClutch=BOOL:No
+         HasOneWayBearing=BOOL:Yes
+         IsPusher=BOOL:No
+         LocationInParentMTR=VECTOR3:0.,-0.1353,0.1166
+         Mass=FLOAT:0.878834
+         RightThrustDEG=FLOAT:0.
+         RightThrustSlaveDEG=FLOAT:0.
+         ServoThrottle=INT:139
+         ServoThrottleRev=BOOL:No
+         ServoThrottleRevSlave=BOOL:No
+         ServoThrottleSlave=INT:0
+         SoundProfile=STRING:Large Brushless with Planetary Gearbox
+         SymetricalAboutAxis=INT:0
+         TorqueGeneratorElectric=STRING:Hacker C50 9XL
+         TorqueGeneratorGas=STRING:Super Tigre G34 Heli with Tuned Pipe
+         TorqueGeneratorTurboProp=STRING:Lister 2500
+         TorquePercent=FLOAT:1.
+
+         SUBGROUP[#264]
+            AngleOfIncidenceDEG=FLOAT:0.
+            Children=INTARRAY:
+            CollectiveConnection=INT:135
+            CollectiveConnectionRev=BOOL:No
+            ComponentID=INT:264
+            ComponentNameTSTRING=STRING:Front Rotor
+            ComponentType=STRING:MainRotorComponent
+            FlapAffectingPitchDEG=FLOAT:0.
+            FrictionFactor=FLOAT:1.
+            HeadDampening=FLOAT:2.592628
+            HubAndConnectorWeightsEach=FLOAT:0.01
+            HubFrameShortName=STRING:3BLADE
+            HubRadiusToFlapHingeMTR=FLOAT:0.0154
+            HubRadiusToLeadLagMTR=FLOAT:0.036564
+            HubType=INT:0
+            InitialPhaseAngleOffset=FLOAT:0.
+            LocationInParentMTR=VECTOR3:0.,0.0308,0.0561
+            MaxCollectiveDEG=FLOAT:10.
+            MaxFlapAngleDEG=FLOAT:3.
+            MinCollectiveDEG=FLOAT:-2.
+            MinFlapAngleDEG=FLOAT:-3.
+            ParasiticDragFactor=FLOAT:1.
+            PitchConnection=INT:137
+            PitchConnectionRev=BOOL:No
+            PitchDeflectionDEG=FLOAT:8.
+            PostStallDragFactor=FLOAT:1.
+            PostStallLiftFactor=FLOAT:1.
+            PostStallMomentFactor=FLOAT:1.
+            RollConnection=INT:133
+            RollConnectionRev=BOOL:No
+            RollDeflectionDEG=FLOAT:8.
+            RotorBladeType=STRING:CH-47 Blades
+            RotorDirection=INT:0
+            RotorSoundType=STRING:Rotor Blades 60
+            RotorSoundVolume=FLOAT:1.
+            SnapRollBoostFactor=FLOAT:1.
+            StallSeverity=FLOAT:0.
+            StallSeverity_000=FLOAT:1.
+            StaticConeAngleDEG=FLOAT:2.999999
+            StrengthMultiplier=FLOAT:1.
+            SwashPlatePhaseAdjustment=FLOAT:0.
+            SymetricalAboutAxis=INT:0
+            VisualBladeType=STRING:Scale MD500E
+         ENDGROUP[#264]
+
+      ENDGROUP[#284]
+
+
+      SUBGROUP[#343]
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:346~
+         ComponentID=INT:343
+         ComponentNameTSTRING=STRING:Rear Landing Gear
+         ComponentType=STRING:Landing Gear
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.9
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_RRG
+         FrameNameSlave=STRING:~CS_RLG
+         GearLengthMTR=FLOAT:0.0407
+         IsFreeCaster=BOOL:No
+         LandingGearType=INT:0
+         LocationInParentMTR=VECTOR3:0.122377,-0.842894,-0.08382
+         RotationAboutXGearDown=FLOAT:0.
+         RotationAboutXGearUp=FLOAT:0.
+         RotationAboutYGearDown=FLOAT:0.
+         RotationAboutYGearUp=FLOAT:0.
+         ServoRetract=INT:0
+         ServoRetractRev=BOOL:No
+         ServoSteer=INT:121
+         ServoSteerRev=BOOL:No
+         SteeringMaxDEG=FLOAT:30.
+         Stiffness=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:2
+         WeightKG=FLOAT:0.01
+
+         SUBGROUP[#346]
+            BakeStrength=FLOAT:0.
+            BreakBothAtOnce=BOOL:No
+            CamberRotation=FLOAT:0.
+            CamberThrustCoeff=FLOAT:0.1
+            Children=INTARRAY:
+            ComponentID=INT:346
+            ComponentNameTSTRING=STRING:Main Wheels
+            ComponentType=STRING:Wheel
+            DisplacementModifier_0to1=FLOAT:0.8
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.75
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_RRW
+            FrameNameSlave=STRING:~CS_RLW
+            FrictionCoeff=FLOAT:1.
+            FrontalDragCoeff=FLOAT:1.
+            HasWheelPant=BOOL:No
+            LocationInParentMTR=VECTOR3:0.,0.,-0.0407
+            RollingResistanceCoeff=FLOAT:1.
+            ServoBrake=INT:0
+            ServoBrakeRev=BOOL:No
+            StrengthMultiplier=FLOAT:1.
+            SymetricalAboutAxis=INT:0
+            ToeinRotation=FLOAT:0.
+            WeightKG=FLOAT:0.01
+            WheelDiameterMTR=FLOAT:0.04884
+            WheelType=STRING:Rubber Tire
+            WheelWidthMTR=FLOAT:0.011
+         ENDGROUP[#346]
+
+      ENDGROUP[#343]
+
+
+      SUBGROUP[#371]
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:372~
+         ComponentID=INT:371
+         ComponentNameTSTRING=STRING:Front Landing Gear
+         ComponentType=STRING:Landing Gear
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.9
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_FRG
+         FrameNameSlave=STRING:~CS_FLG
+         GearLengthMTR=FLOAT:0.0385
+         IsFreeCaster=BOOL:No
+         LandingGearType=INT:0
+         LocationInParentMTR=VECTOR3:0.111983,-0.379537,-0.084825
+         RotationAboutXGearDown=FLOAT:0.
+         RotationAboutXGearUp=FLOAT:0.
+         RotationAboutYGearDown=FLOAT:0.
+         RotationAboutYGearUp=FLOAT:0.
+         ServoRetract=INT:0
+         ServoRetractRev=BOOL:No
+         ServoSteer=INT:0
+         ServoSteerRev=BOOL:No
+         SteeringMaxDEG=FLOAT:30.
+         Stiffness=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:2
+         WeightKG=FLOAT:0.042524
+
+         SUBGROUP[#372]
+            BakeStrength=FLOAT:0.
+            BreakBothAtOnce=BOOL:No
+            CamberRotation=FLOAT:0.
+            CamberThrustCoeff=FLOAT:0.01
+            Children=INTARRAY:
+            ComponentID=INT:372
+            ComponentNameTSTRING=STRING:Wheel
+            ComponentType=STRING:Wheel
+            DisplacementModifier_0to1=FLOAT:0.8
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.75
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_FRW
+            FrameNameSlave=STRING:~CS_FLW
+            FrictionCoeff=FLOAT:1.
+            FrontalDragCoeff=FLOAT:1.
+            HasWheelPant=BOOL:No
+            LocationInParentMTR=VECTOR3:0.,0.,-0.0385
+            RollingResistanceCoeff=FLOAT:1.
+            ServoBrake=INT:0
+            ServoBrakeRev=BOOL:No
+            StrengthMultiplier=FLOAT:1.
+            SymetricalAboutAxis=INT:0
+            ToeinRotation=FLOAT:0.
+            WeightKG=FLOAT:0.1
+            WheelDiameterMTR=FLOAT:0.0539
+            WheelType=STRING:Rubber Tire
+            WheelWidthMTR=FLOAT:0.0352
+         ENDGROUP[#372]
+
+      ENDGROUP[#371]
+
+
+      SUBGROUP[#387]
+         AerodynamicsPercent=FLOAT:1.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:387
+         ComponentNameTSTRING=STRING:Front Rotor Housing
+         ComponentType=STRING:Fuselage
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_F_ROTOR_H
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.064262,0.184404,0.108966
+         LocationInParentMTR=VECTOR3:0.,-0.067391,0.104608
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.144748
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+      ENDGROUP[#387]
+
+
+      SUBGROUP[#388]
+         AerodynamicsPercent=FLOAT:1.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:388
+         ComponentNameTSTRING=STRING:Rear Rotor Housing
+         ComponentType=STRING:Fuselage
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_R_ROTOR_H
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.086614,0.30734,0.187198
+         LocationInParentMTR=VECTOR3:0.,-0.736275,0.128747
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.236796
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+      ENDGROUP[#388]
+
+
+      SUBGROUP[#403]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:403
+         ComponentNameTSTRING=STRING:Winch Door
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_T_WINCH_DOOR
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.011176,0.050292,0.053086
+         LocationInParentMTR=VECTOR3:0.083485,-0.176022,0.011064
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,0.,0.
+         RotationMaxDEG=VECTOR3:0.,0.,-95.
+         RotationMinDEG=VECTOR3:0.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.003685
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:142
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:0
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:142
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:142
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#403]
+
+
+      SUBGROUP[#419]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:420~435~
+         ComponentID=INT:419
+         ComponentNameTSTRING=STRING:Cargo Door Hinge
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_B_REAR_DOOR
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.011176,0.011176,0.011176
+         LocationInParentMTR=VECTOR3:0.,-0.817748,-0.091531
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,0.,0.
+         RotationMaxDEG=VECTOR3:0.,0.,0.
+         RotationMinDEG=VECTOR3:36.200001,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:142
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:0
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:0
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+
+         SUBGROUP[#420]
+            AerodynamicsPercent=FLOAT:1.
+            AirfoilSide=STRING:NACA 0016
+            AirfoilTop=STRING:NACA 0016
+            AspectRatioFactor=FLOAT:1.
+            BreakBothAtOnce=BOOL:No
+            Children=INTARRAY:
+            ComponentID=INT:420
+            ComponentNameTSTRING=STRING:Cargo Door
+            ComponentType=STRING:Fuselage
+            DisplacementModifier_0to1=FLOAT:0.8
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.1
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_B_REAR_DOOR
+            FrameNameSlave=STRING:<None>
+            FrontalDragModification=FLOAT:1.
+            FuseCenterOfLift=FLOAT:1.
+            FuseCenterOfLiftMod_Side=FLOAT:0.
+            FuseCenterOfLiftMod_Top=FLOAT:0.
+            FuseDimensionMTR=VECTOR3:0.254254,0.173228,0.064262
+            LocationInParentMTR=VECTOR3:0.,0.,0.030175
+            OffsetMTR=VECTOR3:0.,0.,0.
+            ParasiticDragFactor=FLOAT:1.
+            PostStallDragFactor=FLOAT:1.
+            PostStallMomentFactor=FLOAT:1.
+            SnapRollBoostFactor=FLOAT:1.
+            StallSeverity=FLOAT:0.
+            StallSeverity_000=FLOAT:1.
+            StrengthMultiplier=FLOAT:1.
+            SymetricalAboutAxis=INT:0
+            WeightKG=FLOAT:0.015025
+            WettedFuselageScale=VECTOR3:1.,1.,1.
+         ENDGROUP[#420]
+
+
+         SUBGROUP[#435]
+            AerodynamicsPercent=FLOAT:0.
+            AirfoilSide=STRING:NACA 0016
+            AirfoilTop=STRING:NACA 0016
+            AspectRatioFactor=FLOAT:1.
+            BreakBothAtOnce=BOOL:No
+            Children=INTARRAY:
+            ComponentID=INT:435
+            ComponentNameTSTRING=STRING:Top Door
+            ComponentType=STRING:MovablePod
+            DisplacementModifier_0to1=FLOAT:0.8
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.1
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_T_REAR_DOOR
+            FrameNameSlave=STRING:<None>
+            FrontalDragModification=FLOAT:1.
+            FuseCenterOfLift=FLOAT:1.
+            FuseCenterOfLiftMod_Side=FLOAT:0.
+            FuseCenterOfLiftMod_Top=FLOAT:0.
+            FuseDimensionMTR=VECTOR3:0.011176,0.011176,0.011176
+            LocationInParentMTR=VECTOR3:0.,0.,0.
+            OffsetMTR=VECTOR3:0.,0.,0.
+            ParasiticDragFactor=FLOAT:1.
+            PostStallDragFactor=FLOAT:1.
+            PostStallMomentFactor=FLOAT:1.
+            ReverseXRotationForSlave=BOOL:Yes
+            ReverseYRotationForSlave=BOOL:Yes
+            ReverseZRotationForSlave=BOOL:Yes
+            RotationCenterDEG=VECTOR3:0.,0.,0.
+            RotationMaxDEG=VECTOR3:0.,0.,0.
+            RotationMinDEG=VECTOR3:12.,0.,0.
+            SnapRollBoostFactor=FLOAT:1.
+            StallSeverity=FLOAT:0.
+            StallSeverity_000=FLOAT:1.
+            StrengthMultiplier=FLOAT:1.
+            SymetricalAboutAxis=INT:0
+            WeightKG=FLOAT:0.
+            WettedFuselageScale=VECTOR3:1.,1.,1.
+            xServoRotationAboutMaster=INT:142
+            xServoRotationAboutMasterRev=BOOL:No
+            xServoRotationAboutSlave=INT:0
+            xServoRotationAboutSlaveRev=BOOL:No
+            yServoRotationAboutMaster=INT:0
+            yServoRotationAboutMasterRev=BOOL:No
+            yServoRotationAboutSlave=INT:0
+            yServoRotationAboutSlaveRev=BOOL:No
+            zServoRotationAboutMaster=INT:0
+            zServoRotationAboutMasterRev=BOOL:No
+            zServoRotationAboutSlave=INT:0
+            zServoRotationAboutSlaveRev=BOOL:No
+         ENDGROUP[#435]
+
+      ENDGROUP[#419]
+
+
+      SUBGROUP[#450]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:450
+         ComponentNameTSTRING=STRING:Front doors
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_RIGHT_DOOR
+         FrameNameSlave=STRING:~CS_LEFT_DOOR
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.011176,0.08382,0.086614
+         LocationInParentMTR=VECTOR3:0.072421,-0.039228,0.01207
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,0.,0.
+         RotationMaxDEG=VECTOR3:2.,0.,-80.
+         RotationMinDEG=VECTOR3:0.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:2
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:143
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:143
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:143
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:143
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:143
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:143
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#450]
+
+
+      SUBGROUP[#451]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:451
+         ComponentNameTSTRING=STRING:Throttle
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_THROTTLE
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.011176,0.011176,0.011176
+         LocationInParentMTR=VECTOR3:0.,0.,0.
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,0.,0.
+         RotationMaxDEG=VECTOR3:-14.2,0.,0.
+         RotationMinDEG=VECTOR3:10.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:139
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:0
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:0
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#451]
+
+
+      SUBGROUP[#452]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:452
+         ComponentNameTSTRING=STRING:Flight Yokes
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_R_JOYSTICK
+         FrameNameSlave=STRING:~CS_L_JOYSTICK
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.011176,0.016764,0.030734
+         LocationInParentMTR=VECTOR3:0.043251,-0.057333,-0.018105
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:No
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,0.,0.
+         RotationMaxDEG=VECTOR3:10.,10.,0.
+         RotationMinDEG=VECTOR3:-10.,-10.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:2
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:137
+         xServoRotationAboutMasterRev=BOOL:Yes
+         xServoRotationAboutSlave=INT:137
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:145
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:141
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#452]
+
+
+      SUBGROUP[#453]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:453
+         ComponentNameTSTRING=STRING:Left  Rudder Pedals
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_CPLRP
+         FrameNameSlave=STRING:~CS_PLRP
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.011176,0.011176,0.011176
+         LocationInParentMTR=VECTOR3:0.,-0.020117,-0.025146
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:No
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,0.,0.
+         RotationMaxDEG=VECTOR3:0.,0.,0.
+         RotationMinDEG=VECTOR3:-30.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:2
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:144
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:144
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:0
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#453]
+
+
+      SUBGROUP[#468]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:468
+         ComponentNameTSTRING=STRING:Right Rudder Pedals
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_PRRP
+         FrameNameSlave=STRING:~CS_CPRRP
+         FrontalDragModification=FLOAT:0.01
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.011176,0.011176,0.011176
+         LocationInParentMTR=VECTOR3:0.,-0.020117,-0.025146
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:No
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,0.,0.
+         RotationMaxDEG=VECTOR3:-30.,0.,0.
+         RotationMinDEG=VECTOR3:0.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:2
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:144
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:144
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:0
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#468]
+
+
+      SUBGROUP[#483]
+         AerodynamicsPercent=FLOAT:1.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:483
+         ComponentNameTSTRING=STRING:Engine Pods
+         ComponentType=STRING:Fuselage
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_R_ENGINE_POD
+         FrameNameSlave=STRING:~CS_L_ENGINE_POD
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.053086,0.173228,0.053086
+         LocationInParentMTR=VECTOR3:0.092537,-0.75438,0.091531
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:2
+         WeightKG=FLOAT:0.02835
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+      ENDGROUP[#483]
+
+
+      SUBGROUP[#501]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:502~503~
+         ComponentID=INT:501
+         ComponentNameTSTRING=STRING:Left Rear Seat Bottoms
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_SEATBOTTOMS01
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.01016,0.01016,0.01016
+         LocationInParentMTR=VECTOR3:0.,0.,0.
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,-42.5,0.
+         RotationMaxDEG=VECTOR3:0.,-85.,0.
+         RotationMinDEG=VECTOR3:0.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:0
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:0
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:148
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+
+         SUBGROUP[#502]
+            AerodynamicsPercent=FLOAT:0.
+            AirfoilSide=STRING:NACA 0016
+            AirfoilTop=STRING:NACA 0016
+            AspectRatioFactor=FLOAT:1.
+            BreakBothAtOnce=BOOL:No
+            Children=INTARRAY:
+            ComponentID=INT:502
+            ComponentNameTSTRING=STRING:Left Rear Seat Legs
+            ComponentType=STRING:MovablePod
+            DisplacementModifier_0to1=FLOAT:0.8
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.1
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_FRONTLEGS01
+            FrameNameSlave=STRING:<None>
+            FrontalDragModification=FLOAT:1.
+            FuseCenterOfLift=FLOAT:1.
+            FuseCenterOfLiftMod_Side=FLOAT:0.
+            FuseCenterOfLiftMod_Top=FLOAT:0.
+            FuseDimensionMTR=VECTOR3:0.01016,0.01016,0.01016
+            LocationInParentMTR=VECTOR3:0.,0.,0.
+            OffsetMTR=VECTOR3:0.,0.,0.
+            ParasiticDragFactor=FLOAT:1.
+            PostStallDragFactor=FLOAT:1.
+            PostStallMomentFactor=FLOAT:1.
+            ReverseXRotationForSlave=BOOL:Yes
+            ReverseYRotationForSlave=BOOL:Yes
+            ReverseZRotationForSlave=BOOL:Yes
+            RotationCenterDEG=VECTOR3:0.,40.,0.
+            RotationMaxDEG=VECTOR3:0.,80.,0.
+            RotationMinDEG=VECTOR3:0.,0.,0.
+            SnapRollBoostFactor=FLOAT:1.
+            StallSeverity=FLOAT:0.
+            StallSeverity_000=FLOAT:1.
+            StrengthMultiplier=FLOAT:1.
+            SymetricalAboutAxis=INT:0
+            WeightKG=FLOAT:0.
+            WettedFuselageScale=VECTOR3:1.,1.,1.
+            xServoRotationAboutMaster=INT:0
+            xServoRotationAboutMasterRev=BOOL:No
+            xServoRotationAboutSlave=INT:0
+            xServoRotationAboutSlaveRev=BOOL:No
+            yServoRotationAboutMaster=INT:148
+            yServoRotationAboutMasterRev=BOOL:No
+            yServoRotationAboutSlave=INT:0
+            yServoRotationAboutSlaveRev=BOOL:No
+            zServoRotationAboutMaster=INT:0
+            zServoRotationAboutMasterRev=BOOL:No
+            zServoRotationAboutSlave=INT:0
+            zServoRotationAboutSlaveRev=BOOL:No
+         ENDGROUP[#502]
+
+
+         SUBGROUP[#503]
+            AerodynamicsPercent=FLOAT:0.
+            AirfoilSide=STRING:NACA 0016
+            AirfoilTop=STRING:NACA 0016
+            AspectRatioFactor=FLOAT:1.
+            BreakBothAtOnce=BOOL:No
+            Children=INTARRAY:
+            ComponentID=INT:503
+            ComponentNameTSTRING=STRING:Left Rear Seat Backs
+            ComponentType=STRING:MovablePod
+            DisplacementModifier_0to1=FLOAT:0.8
+            EffectVolume=FLOAT:1.
+            FloodFactor_0to1=FLOAT:0.1
+            FloodTime_SEC=INT:10
+            FrameNameMaster=STRING:~CS_SEATBACKS01
+            FrameNameSlave=STRING:<None>
+            FrontalDragModification=FLOAT:1.
+            FuseCenterOfLift=FLOAT:1.
+            FuseCenterOfLiftMod_Side=FLOAT:0.
+            FuseCenterOfLiftMod_Top=FLOAT:0.
+            FuseDimensionMTR=VECTOR3:0.01016,0.01016,0.01016
+            LocationInParentMTR=VECTOR3:0.,0.,0.
+            OffsetMTR=VECTOR3:0.,0.,0.
+            ParasiticDragFactor=FLOAT:1.
+            PostStallDragFactor=FLOAT:1.
+            PostStallMomentFactor=FLOAT:1.
+            ReverseXRotationForSlave=BOOL:Yes
+            ReverseYRotationForSlave=BOOL:Yes
+            ReverseZRotationForSlave=BOOL:Yes
+            RotationCenterDEG=VECTOR3:0.,4.,0.
+            RotationMaxDEG=VECTOR3:0.,8.,0.
+            RotationMinDEG=VECTOR3:0.,0.,0.
+            SnapRollBoostFactor=FLOAT:1.
+            StallSeverity=FLOAT:0.
+            StallSeverity_000=FLOAT:1.
+            StrengthMultiplier=FLOAT:1.
+            SymetricalAboutAxis=INT:0
+            WeightKG=FLOAT:0.
+            WettedFuselageScale=VECTOR3:1.,1.,1.
+            xServoRotationAboutMaster=INT:0
+            xServoRotationAboutMasterRev=BOOL:No
+            xServoRotationAboutSlave=INT:0
+            xServoRotationAboutSlaveRev=BOOL:No
+            yServoRotationAboutMaster=INT:148
+            yServoRotationAboutMasterRev=BOOL:No
+            yServoRotationAboutSlave=INT:0
+            yServoRotationAboutSlaveRev=BOOL:No
+            zServoRotationAboutMaster=INT:0
+            zServoRotationAboutMasterRev=BOOL:No
+            zServoRotationAboutSlave=INT:0
+            zServoRotationAboutSlaveRev=BOOL:No
+         ENDGROUP[#503]
+
+      ENDGROUP[#501]
+
+   ENDGROUP[#2]
+
+
+   SUBGROUP[#3]
+      CapacityOZ=FLOAT:16.
+      Children=INTARRAY:
+      ComponentID=INT:3
+      ComponentNameTSTRING=STRING:Main Fuel Tank
+      ComponentType=STRING:FuelStoredEnergy
+      FuelTankHeight=FLOAT:0.078349
+      FuelTankMass=FLOAT:0.0001
+      FuelTankSize=FLOAT:6.
+      FuelTankWidth=FLOAT:0.110436
+      LocationInParentMTR=VECTOR3:0.,0.,-0.053645
+      SymetricalAboutAxis=INT:0
+   ENDGROUP[#3]
+
+
+   SUBGROUP[#4]
+      CellType=STRING:LiPoly 8000 mah
+      Children=INTARRAY:
+      ComponentID=INT:4
+      ComponentNameTSTRING=STRING:Main Battery
+      ComponentType=STRING:BatteryStoredEnergy
+      DimensionsMTR=VECTOR3:0.032969,0.133274,0.027661
+      LocationInParentMTR=VECTOR3:0.,0.025482,-0.061356
+      NumCellsInParallel=INT:2
+      NumCellsInSeries=INT:4
+      SpeedControllerCurrentLimit_AMPS=FLOAT:0.
+      SpeedControllerResistanceOHMS=FLOAT:0.003
+      SymetricalAboutAxis=INT:0
+   ENDGROUP[#4]
+
+
+   SUBGROUP[#498]
+      AerodynamicsPercent=FLOAT:0.
+      AirfoilSide=STRING:NACA 0016
+      AirfoilTop=STRING:NACA 0016
+      AspectRatioFactor=FLOAT:1.
+      BreakBothAtOnce=BOOL:No
+      Children=INTARRAY:499~500~
+      ComponentID=INT:498
+      ComponentNameTSTRING=STRING:Right Rear Seat Bottoms
+      ComponentType=STRING:MovablePod
+      DisplacementModifier_0to1=FLOAT:0.8
+      EffectVolume=FLOAT:1.
+      FloodFactor_0to1=FLOAT:0.1
+      FloodTime_SEC=INT:10
+      FrameNameMaster=STRING:~CS_SEATBOTTOMS
+      FrameNameSlave=STRING:<None>
+      FrontalDragModification=FLOAT:1.
+      FuseCenterOfLift=FLOAT:1.
+      FuseCenterOfLiftMod_Side=FLOAT:0.
+      FuseCenterOfLiftMod_Top=FLOAT:0.
+      FuseDimensionMTR=VECTOR3:0.01016,0.01016,0.01016
+      LocationInParentMTR=VECTOR3:0.,0.,0.
+      OffsetMTR=VECTOR3:0.,0.,0.
+      ParasiticDragFactor=FLOAT:1.
+      PostStallDragFactor=FLOAT:1.
+      PostStallMomentFactor=FLOAT:1.
+      ReverseXRotationForSlave=BOOL:Yes
+      ReverseYRotationForSlave=BOOL:Yes
+      ReverseZRotationForSlave=BOOL:Yes
+      RotationCenterDEG=VECTOR3:0.,42.5,0.
+      RotationMaxDEG=VECTOR3:0.,85.,0.
+      RotationMinDEG=VECTOR3:0.,0.,0.
+      SnapRollBoostFactor=FLOAT:1.
+      StallSeverity=FLOAT:0.
+      StallSeverity_000=FLOAT:1.
+      StrengthMultiplier=FLOAT:1.
+      SymetricalAboutAxis=INT:0
+      WeightKG=FLOAT:0.
+      WettedFuselageScale=VECTOR3:1.,1.,1.
+      xServoRotationAboutMaster=INT:0
+      xServoRotationAboutMasterRev=BOOL:No
+      xServoRotationAboutSlave=INT:0
+      xServoRotationAboutSlaveRev=BOOL:No
+      yServoRotationAboutMaster=INT:148
+      yServoRotationAboutMasterRev=BOOL:No
+      yServoRotationAboutSlave=INT:0
+      yServoRotationAboutSlaveRev=BOOL:No
+      zServoRotationAboutMaster=INT:0
+      zServoRotationAboutMasterRev=BOOL:No
+      zServoRotationAboutSlave=INT:0
+      zServoRotationAboutSlaveRev=BOOL:No
+
+      SUBGROUP[#499]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:499
+         ComponentNameTSTRING=STRING:Right Rear Seat Legs
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_FRONTLEGS
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.01016,0.01016,0.01016
+         LocationInParentMTR=VECTOR3:0.,0.,0.
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,-40.,0.
+         RotationMaxDEG=VECTOR3:0.,-80.,0.
+         RotationMinDEG=VECTOR3:0.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:0
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:0
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:148
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#499]
+
+
+      SUBGROUP[#500]
+         AerodynamicsPercent=FLOAT:0.
+         AirfoilSide=STRING:NACA 0016
+         AirfoilTop=STRING:NACA 0016
+         AspectRatioFactor=FLOAT:1.
+         BreakBothAtOnce=BOOL:No
+         Children=INTARRAY:
+         ComponentID=INT:500
+         ComponentNameTSTRING=STRING:Right Rear Seat Backs
+         ComponentType=STRING:MovablePod
+         DisplacementModifier_0to1=FLOAT:0.8
+         EffectVolume=FLOAT:1.
+         FloodFactor_0to1=FLOAT:0.1
+         FloodTime_SEC=INT:10
+         FrameNameMaster=STRING:~CS_SEATBACKS
+         FrameNameSlave=STRING:<None>
+         FrontalDragModification=FLOAT:1.
+         FuseCenterOfLift=FLOAT:1.
+         FuseCenterOfLiftMod_Side=FLOAT:0.
+         FuseCenterOfLiftMod_Top=FLOAT:0.
+         FuseDimensionMTR=VECTOR3:0.01016,0.01016,0.01016
+         LocationInParentMTR=VECTOR3:0.,0.,0.
+         OffsetMTR=VECTOR3:0.,0.,0.
+         ParasiticDragFactor=FLOAT:1.
+         PostStallDragFactor=FLOAT:1.
+         PostStallMomentFactor=FLOAT:1.
+         ReverseXRotationForSlave=BOOL:Yes
+         ReverseYRotationForSlave=BOOL:Yes
+         ReverseZRotationForSlave=BOOL:Yes
+         RotationCenterDEG=VECTOR3:0.,-4.,0.
+         RotationMaxDEG=VECTOR3:0.,-8.,0.
+         RotationMinDEG=VECTOR3:0.,0.,0.
+         SnapRollBoostFactor=FLOAT:1.
+         StallSeverity=FLOAT:0.
+         StallSeverity_000=FLOAT:1.
+         StrengthMultiplier=FLOAT:1.
+         SymetricalAboutAxis=INT:0
+         WeightKG=FLOAT:0.
+         WettedFuselageScale=VECTOR3:1.,1.,1.
+         xServoRotationAboutMaster=INT:0
+         xServoRotationAboutMasterRev=BOOL:No
+         xServoRotationAboutSlave=INT:0
+         xServoRotationAboutSlaveRev=BOOL:No
+         yServoRotationAboutMaster=INT:148
+         yServoRotationAboutMasterRev=BOOL:No
+         yServoRotationAboutSlave=INT:0
+         yServoRotationAboutSlaveRev=BOOL:No
+         zServoRotationAboutMaster=INT:0
+         zServoRotationAboutMasterRev=BOOL:No
+         zServoRotationAboutSlave=INT:0
+         zServoRotationAboutSlaveRev=BOOL:No
+      ENDGROUP[#500]
+
+   ENDGROUP[#498]
+
+
+[PlaneData]
+PLNVersion=INT:3
+
+[Transmitter]
+UseOwnRadio=BOOL:No
+UseSoftwareRadio=BOOL:Yes

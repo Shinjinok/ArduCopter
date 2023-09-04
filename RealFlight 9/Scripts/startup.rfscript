@@ -1,0 +1,7 @@
+// RealFlight Startup Script
+// Each line of this file will be executed by the console as a console command.
+// Use it to bind keys using the bind console command or other console related operations.
+// A line that starts with a // will be treated as a comment and ignored
+
+// Example:
+// bind ctrl-y say "Example command"

@@ -1,0 +1,98 @@
+
+
+[Environment]
+BloomAmount=FLOAT:1.
+BloomThreshold=FLOAT:0.6
+Enable Water=BOOL:No
+FarHazeDistanceFT=FLOAT:52800.
+ForcePanoHaze=BOOL:No
+ForceSunAngle=BOOL:Yes
+HazeInclinationDEG=FLOAT:2.
+LensFlare=STRING:Anamorphic Warm
+LowerSkyColor=BYTECOLOR:213,228,247,255
+MoonAzimuthDEG=FLOAT:180.
+MoonInclinationDEG=FLOAT:-90.
+NearHazeDistanceFT=FLOAT:5280.
+Render Water=BOOL:Yes
+SunAzimuthDEG=FLOAT:55.
+SunHalo=BOOL:Yes
+SunInclinationDEG=FLOAT:50.
+UpperSkyColor=BYTECOLOR:11,116,202,255
+WaterColor=BYTECOLOR:55,86,66,255
+WaterSurfaceAltitudeFT=FLOAT:10.
+WaterVisibilityFT=FLOAT:50.
+WindDirection=FLOAT:183.
+WindSpeedMPS=FLOAT:0.
+
+[Main]
+AnchorCamera=BOOL:No
+AppVersionBuild=UINT64:950068
+ChosenScene=STRING:Flatlands
+ChosenSceneCD=STRING:
+DeadringerTag=STRING:Deadringer
+DefaultPilotSpawn=STRING:Pilot Spawn
+DescriptionTSTRING=STRING:Turn up the heat as you race through the pylons of Air Race Desert. The only thing more beautiful than the red dirt of the mesas against the endless blue sky is a best time record. Practice your technique so you can cut through the dry air like a hot knife through butter.
+FoliageSeed=INT:0
+InnerFoliageExclusionZoneRadiusFT=FLOAT:99999.
+Material=STRING:
+NextObjectID=INT:216
+OuterFoliageExclusionZoneRadiusFT=FLOAT:99999.
+PhotoField=STRING:
+PhotoFieldFacingDEG=FLOAT:0.
+PhotoFieldFacingXDEG=FLOAT:0.
+PhotoFieldFacingYDEG=FLOAT:0.
+RenderTerrain=BOOL:Yes
+SkyGrid=STRING:Basic Sky Grid
+TerrainDensity=FLOAT:1.
+Version=INT:1
+
+[GroundTexture]
+DefaultTerrainDetail1=STRING:Desert Sand
+DefaultTerrainDetail1FarTexture=STRING:
+DefaultTerrainDetail1NearTexture=STRING:
+DefaultTerrainDetail2=STRING:Desert Cracked Red
+DefaultTerrainDetail2FarTexture=STRING:
+DefaultTerrainDetail2NearTexture=STRING:
+DefaultTerrainGrungeTexture=STRING:Lightest Grunge
+InnerDetailTextureRadiusFT=FLOAT:10000.
+OuterDetailTextureRadiusFT=FLOAT:20000.
+TerrainDetailModulationOffsetXFT=FLOAT:0.
+TerrainDetailModulationOffsetYFT=FLOAT:0.
+TerrainDetailModulationStrength=FLOAT:0.8
+TerrainDetailModulationTexture=STRING:Dunes
+TerrainDetailModulationTileSizeFT=FLOAT:2000.
+TerrainWetTexture1=STRING:
+TerrainWetTexture2=STRING:
+
+[Clouds]
+CloudLayersArray=INTARRAY:1~2~
+
+   SUBGROUP[CloudLayersArray]
+
+      SUBGROUP[#1]
+         CloudType=INT:1
+         Collage=STRING:Stratus
+         Darken=FLOAT:1.
+         Density=FLOAT:0.2
+         EndingAltitude=FLOAT:25000.
+         Size=FLOAT:1.
+         Speed=FLOAT:0.5
+         StartingAltitude=FLOAT:20000.
+         userName=STRING:Stratospheric
+      ENDGROUP[#1]
+
+
+      SUBGROUP[#2]
+         CloudType=INT:2
+         Collage=STRING:Cumulus
+         Darken=FLOAT:1.
+         Density=FLOAT:0.2
+         EndingAltitude=FLOAT:7000.
+         Size=FLOAT:0.5
+         Speed=FLOAT:0.5
+         StartingAltitude=FLOAT:5000.
+         userName=STRING:Tropospheric
+      ENDGROUP[#2]
+
+   ENDGROUP[CloudLayersArray]
+
