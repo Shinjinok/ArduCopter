@@ -1,0 +1,16 @@
+[New Thread 9928.0x7e54]
+[New Thread 9928.0x8120]
+[New Thread 9928.0x7e84]
+[New Thread 9928.0x3ea4]
+[New Thread 9928.0x654]
+[New Thread 9928.0x660c]
+[New Thread 9928.0x732c]
+[New Thread 9928.0x3f5c]
+[New Thread 9928.0x930]
+[New Thread 9928.0x7bc0]
+[New Thread 9928.0x6c7c]
+[New Thread 9928.0x547c]
+warning: cannot close "ap-21952.core": invalid operation
+/tmp/gdb.21952:2: Error in sourced command file:
+Can't create a corefile
+[Inferior 1 (process 9928) detached]

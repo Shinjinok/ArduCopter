@@ -1,0 +1,476 @@
+[New Thread 9928.0x7e54]
+[New Thread 9928.0x8120]
+[New Thread 9928.0x7e84]
+[New Thread 9928.0x3ea4]
+[New Thread 9928.0x654]
+[New Thread 9928.0x660c]
+[New Thread 9928.0x732c]
+[New Thread 9928.0x3f5c]
+[New Thread 9928.0x930]
+[New Thread 9928.0x7bc0]
+[New Thread 9928.0x6c7c]
+[New Thread 9928.0x7cc8]
+#0  0x00007ffc213d0bb1 in ntdll!DbgBreakPoint () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc213fcc2e in ntdll!DbgUiRemoteBreakin () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#2  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#3  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#4  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 13 (Thread 9928.0x7cc8):
+#0  0x00007ffc213d0bb1 in ntdll!DbgBreakPoint () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc213fcc2e in ntdll!DbgUiRemoteBreakin () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#2  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#3  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#4  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 12 (Thread 9928.0x6c7c):
+#0  0x00007ffc213d0b14 in ntdll!ZwWaitForWorkViaWorkerFactory () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc21382e17 in ntdll!TpReleaseCleanupGroupMembers () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#2  0x00007ffbd2245c86 in _cygtls::call2 (this=0x267ce00, func=0x7ffc21382b20 <ntdll!TpReleaseCleanupGroupMembers+1104>, arg=0x6b0b50, buf=buf@entry=0x267cd20) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:41
+        res = <optimized out>
+#3  0x00007ffbd2245d34 in _cygtls::call (func=<optimized out>, arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:28
+        buf = '\000' <repeats 232 times>...
+        protect = <optimized out>
+#4  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#5  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#6  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 11 (Thread 9928.0x7bc0):
+#0  0x00007ffc213d0b14 in ntdll!ZwWaitForWorkViaWorkerFactory () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc21382e17 in ntdll!TpReleaseCleanupGroupMembers () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#2  0x00007ffbd2245c86 in _cygtls::call2 (this=0x247ce00, func=0x7ffc21382b20 <ntdll!TpReleaseCleanupGroupMembers+1104>, arg=0x6b0b50, buf=buf@entry=0x247cd20) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:41
+        res = <optimized out>
+#3  0x00007ffbd2245d34 in _cygtls::call (func=<optimized out>, arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:28
+        buf = '\000' <repeats 232 times>...
+        protect = <optimized out>
+#4  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#5  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#6  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 10 (Thread 9928.0x930):
+#0  0x00007ffc213cdc14 in ntdll!ZwWaitForMultipleObjects () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc1ea80590 in WaitForMultipleObjectsEx () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#2  0x00007ffc1ea8048e in WaitForMultipleObjects () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#3  0x00007ffbd2245e8a in cygwait (object=object@entry=0x0, timeout=timeout@entry=0x7ff9fc818, mask=mask@entry=11) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygwait.cc:75
+        res = <optimized out>
+        num = 3
+        wait_objects = {0x76c, 0x354, 0x604, 0x100453764 <GCS_MAVLINK::send_ftp_reply(GCS_MAVLINK::pending_ftp const&)+404>}
+        thread = 0xa00106980
+        thread_waiting = <optimized out>
+        sig_n = <optimized out>
+        cancel_n = 1
+        timeout_n = 2
+#4  0x00007ffbd22bb27c in clock_nanosleep (clk_id=clk_id@entry=1, flags=flags@entry=0, rqtp=rqtp@entry=0x7ff9fc8c0, rmtp=rmtp@entry=0x0) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/signal.cc:130
+        abstime = false
+        res = 0
+        __PRETTY_FUNCTION__ = "int clock_nanosleep(clockid_t, int, const timespec*, timespec*)"
+        timeout = {{LowPart = 4294957296, HighPart = -1}, u = {LowPart = 4294957296, HighPart = -1}, QuadPart = -10000}
+        rc = <optimized out>
+#5  0x00007ffbd22bb698 in usleep (useconds=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/signal.cc:185
+        req = {tv_sec = 0, tv_nsec = 1000000}
+        res = <optimized out>
+        __PRETTY_FUNCTION__ = "int usleep(useconds_t)"
+#6  0x00007ffbd2394a6b in _sigfe () at sigfe.s:36
+No locals.
+#7  0x0000000100604df8 in HALSITL::SITL_State::wait_clock(unsigned long) ()
+No symbol table info available.
+#8  0x000000010060fbc4 in HALSITL::Scheduler::delay(unsigned short) ()
+No symbol table info available.
+#9  0x000000010045140a in GCS_MAVLINK::ftp_worker() ()
+No symbol table info available.
+#10 0x00000001006011c9 in void Functor<void>::method_wrapper<GCS_MAVLINK, &GCS_MAVLINK::ftp_worker>(void*) ()
+No symbol table info available.
+#11 0x000000010060fab5 in HALSITL::Scheduler::thread_create_trampoline(void*) ()
+No symbol table info available.
+#12 0x00007ffbd22a6d0f in pthread::thread_init_wrapper (arg=0xa00106980) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/thread.cc:2016
+        protect = <optimized out>
+        thread = 0xa00106980
+        __PRETTY_FUNCTION__ = "static DWORD pthread::thread_init_wrapper(void*)"
+        ret = <optimized out>
+#13 0x00007ffbd22444aa in pthread_wrapper (arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/create_posix_thread.cc:79
+        wrapper_arg = {func = 0x2, arg = 0x7ffbd251ede0 <__sf>, stackaddr = 0x7ffbd251ee98 <__sf+184> "\027\357Q\322\373\177", stackbase = 0x7ffbd251ef50 <__sf+368> "\317\357Q\322\373\177", stacklimit = 0x0, guardsize = 0}
+        teb = <optimized out>
+        dealloc_addr = <optimized out>
+#14 pthread_wrapper (arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/create_posix_thread.cc:39
+        wrapper_arg = <optimized out>
+        teb = <optimized out>
+        dealloc_addr = <optimized out>
+#15 0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 9 (Thread 9928.0x3f5c):
+#0  0x00007ffc213cdc14 in ntdll!ZwWaitForMultipleObjects () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc1ea80590 in WaitForMultipleObjectsEx () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#2  0x00007ffc1ea8048e in WaitForMultipleObjects () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#3  0x00007ffbd2245e8a in cygwait (object=object@entry=0x0, timeout=timeout@entry=0x7ffbfca48, mask=mask@entry=11) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygwait.cc:75
+        res = <optimized out>
+        num = 3
+        wait_objects = {0x390, 0x3b0, 0x320, 0x0}
+        thread = 0xa000ae150
+        thread_waiting = <optimized out>
+        sig_n = <optimized out>
+        cancel_n = 1
+        timeout_n = 2
+#4  0x00007ffbd22bb27c in clock_nanosleep (clk_id=clk_id@entry=1, flags=flags@entry=0, rqtp=rqtp@entry=0x7ffbfcaf0, rmtp=rmtp@entry=0x0) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/signal.cc:130
+        abstime = false
+        res = 0
+        __PRETTY_FUNCTION__ = "int clock_nanosleep(clockid_t, int, const timespec*, timespec*)"
+        timeout = {{LowPart = 4294957296, HighPart = -1}, u = {LowPart = 4294957296, HighPart = -1}, QuadPart = -10000}
+        rc = <optimized out>
+#5  0x00007ffbd22bb698 in usleep (useconds=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/signal.cc:185
+        req = {tv_sec = 0, tv_nsec = 1000000}
+        res = <optimized out>
+        __PRETTY_FUNCTION__ = "int usleep(useconds_t)"
+#6  0x00007ffbd2394a6b in _sigfe () at sigfe.s:36
+No locals.
+#7  0x0000000100604df8 in HALSITL::SITL_State::wait_clock(unsigned long) ()
+No symbol table info available.
+#8  0x000000010060f6dc in HALSITL::Scheduler::delay_microseconds(unsigned short) ()
+No symbol table info available.
+#9  0x000000010064566a in AP_Logger::io_thread() ()
+No symbol table info available.
+#10 0x00000001006045c9 in void Functor<void>::method_wrapper<AP_Logger, &AP_Logger::io_thread>(void*) ()
+No symbol table info available.
+#11 0x000000010060fab5 in HALSITL::Scheduler::thread_create_trampoline(void*) ()
+No symbol table info available.
+#12 0x00007ffbd22a6d0f in pthread::thread_init_wrapper (arg=0xa000ae150) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/thread.cc:2016
+        protect = <optimized out>
+        thread = 0xa000ae150
+        __PRETTY_FUNCTION__ = "static DWORD pthread::thread_init_wrapper(void*)"
+        ret = <optimized out>
+#13 0x00007ffbd22444aa in pthread_wrapper (arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/create_posix_thread.cc:79
+        wrapper_arg = {func = 0x0, arg = 0x7ffbd251ede0 <__sf>, stackaddr = 0x7ffbd251ee98 <__sf+184> "\027\357Q\322\373\177", stackbase = 0x7ffbd251ef50 <__sf+368> "\317\357Q\322\373\177", stacklimit = 0x0, guardsize = 0}
+        teb = <optimized out>
+        dealloc_addr = <optimized out>
+#14 pthread_wrapper (arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/create_posix_thread.cc:39
+        wrapper_arg = <optimized out>
+        teb = <optimized out>
+        dealloc_addr = <optimized out>
+#15 0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 8 (Thread 9928.0x732c):
+#0  0x00007ffc213cd184 in ntdll!ZwReadFile () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc1ea65593 in ReadFile () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#2  0x00007ffbd229e684 in proc_waiter (arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/pinfo.cc:1259
+        nb = 0
+        buf = 0 '\000'
+        vchild = {<pinfo_minimal> = {h = 0x6f8, hProcess = 0x740, rd_proc_pipe = 0x6f4}, destroy = false, winpid_hdl = 0x0, procinfo = 0x1d8480000, waiter_ready = false, wait_thread = 0x7ffbd2436838 <threads+88>}
+        si = {si_signo = 20, si_code = 28, si_pid = 21945, si_uid = 0, si_errno = 0, {__pad = {0 <repeats 32 times>}, _si_commune = {_si_code = 0, _si_read_handle = 0x0, _si_write_handle = 0x0, _si_process_handle = 0x0, {{_si_fd = 0, _si_flags = 0}, _si_pipe_unique_id = 0, _si_str = 0x0}}, {{si_sigval = {sival_int = 0, sival_ptr = 0x0}, si_value = {sival_int = 0, sival_ptr = 0x0}}, {si_tid = 0, si_overrun = 0}}, {si_status = 0, si_utime = 0, si_stime = 0}, si_addr = 0x0, {__pad2 = {0 <repeats 30 times>}, si_cyg = 0x0}}}
+        pid = 21945
+        its_me = false
+        __PRETTY_FUNCTION__ = "DWORD proc_waiter(void*)"
+#3  0x00007ffbd2244aa3 in cygthread::callfunc (this=this@entry=0x7ffbd2436838 <threads+88>, issimplestub=issimplestub@entry=false) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygthread.cc:48
+        pass_arg = <optimized out>
+#4  0x00007ffbd2245066 in cygthread::stub (arg=arg@entry=0x7ffbd2436838 <threads+88>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygthread.cc:91
+        notify = <optimized out>
+        info = 0x7ffbd2436838 <threads+88>
+        __PRETTY_FUNCTION__ = "static DWORD cygthread::stub(void*)"
+#5  0x00007ffbd2245c86 in _cygtls::call2 (this=0x1bfce00, func=0x7ffbd2244fe0 <cygthread::stub(void*)>, arg=0x7ffbd2436838 <threads+88>, buf=buf@entry=0x1bfcd20) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:41
+        res = <optimized out>
+#6  0x00007ffbd2245d34 in _cygtls::call (func=<optimized out>, arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:28
+        buf = '\000' <repeats 232 times>...
+        protect = <optimized out>
+#7  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#8  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#9  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 7 (Thread 9928.0x660c):
+#0  0x00007ffc213cd1e4 in ntdll!ZwRemoveIoCompletion () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc1e1910ab in ?? () from /cygdrive/c/Windows/system32/mswsock.dll
+No symbol table info available.
+#2  0x00007ffbd2245c86 in _cygtls::call2 (this=0x5fce00, func=0x7ffc1e191010, arg=0x6c7a30, buf=buf@entry=0x5fcd20) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:41
+        res = <optimized out>
+#3  0x00007ffbd2245d34 in _cygtls::call (func=<optimized out>, arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:28
+        buf = '\000' <repeats 232 times>...
+        protect = <optimized out>
+#4  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#5  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#6  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 6 (Thread 9928.0x654):
+#0  0x00007ffc213cdc14 in ntdll!ZwWaitForMultipleObjects () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc1ea80590 in WaitForMultipleObjectsEx () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#2  0x00007ffc1ea8048e in WaitForMultipleObjects () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#3  0x00007ffbd2245e8a in cygwait (object=<optimized out>, timeout=0x0, mask=mask@entry=33) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygwait.cc:75
+        res = <optimized out>
+        num = 3
+        wait_objects = {0x310, 0x304, 0x2b4, 0x7ffdfcba0}
+        thread = 0xa00069d40
+        thread_waiting = <optimized out>
+        sig_n = <optimized out>
+        cancel_n = 2
+        timeout_n = 259
+#4  0x00007ffbd22a723a in pthread_cond::wait (this=0xa00069f40, mutex=0xa00069e90, timeout=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/thread.cc:1265
+        rv = <optimized out>
+#5  0x00007ffbd2394a6b in _sigfe () at sigfe.s:36
+No locals.
+#6  0x000000010059f1a3 in SITL::FlightAxis::socket_creator() ()
+No symbol table info available.
+#7  0x00000001006045f9 in void Functor<void>::method_wrapper<SITL::FlightAxis, &SITL::FlightAxis::socket_creator>(void*) ()
+No symbol table info available.
+#8  0x000000010060fab5 in HALSITL::Scheduler::thread_create_trampoline(void*) ()
+No symbol table info available.
+#9  0x00007ffbd22a6d0f in pthread::thread_init_wrapper (arg=0xa00069d40) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/thread.cc:2016
+        protect = <optimized out>
+        thread = 0xa00069d40
+        __PRETTY_FUNCTION__ = "static DWORD pthread::thread_init_wrapper(void*)"
+        ret = <optimized out>
+#10 0x00007ffbd22444aa in pthread_wrapper (arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/create_posix_thread.cc:79
+        wrapper_arg = {func = 0x0, arg = 0x7ffbd251ede0 <__sf>, stackaddr = 0x7ffbd251ee98 <__sf+184> "\027\357Q\322\373\177", stackbase = 0x7ffbd251ef50 <__sf+368> "\317\357Q\322\373\177", stacklimit = 0x0, guardsize = 0}
+        teb = <optimized out>
+        dealloc_addr = <optimized out>
+#11 pthread_wrapper (arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/create_posix_thread.cc:39
+        wrapper_arg = <optimized out>
+        teb = <optimized out>
+        dealloc_addr = <optimized out>
+#12 0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 5 (Thread 9928.0x3ea4):
+#0  0x00007ffc213cd184 in ntdll!ZwReadFile () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc1ea65593 in ReadFile () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#2  0x00007ffbd22bf311 in wait_sig () at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/sigproc.cc:1331
+        nb = 0
+        q = <optimized out>
+        pack = {si = {si_signo = 0, si_code = 0, si_pid = 0, si_uid = 0, si_errno = 0, {__pad = {0 <repeats 32 times>}, _si_commune = {_si_code = 0, _si_read_handle = 0x0, _si_write_handle = 0x0, _si_process_handle = 0x0, {{_si_fd = 0, _si_flags = 0}, _si_pipe_unique_id = 0, _si_str = 0x0}}, {{si_sigval = {sival_int = 0, sival_ptr = 0x0}, si_value = {sival_int = 0, sival_ptr = 0x0}}, {si_tid = 0, si_overrun = 0}}, {si_status = 0, si_utime = 0, si_stime = 0}, si_addr = 0x0, {__pad2 = {0 <repeats 30 times>}, si_cyg = 0x0}}}, pid = 0, sigtls = 0x0, mask = 0x0, {wakeup = 0x0, thread_handle = 0x0, next = 0x0}}
+        dummy_mask = 524416
+        tl_entry = <optimized out>
+        clearwait = <optimized out>
+        sig_held = false
+        __PRETTY_FUNCTION__ = "void wait_sig(void*)"
+#3  0x00007ffbd2244aa3 in cygthread::callfunc (this=this@entry=0x7ffbd24367e0 <threads>, issimplestub=issimplestub@entry=false) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygthread.cc:48
+        pass_arg = <optimized out>
+#4  0x00007ffbd2245066 in cygthread::stub (arg=arg@entry=0x7ffbd24367e0 <threads>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygthread.cc:91
+        notify = <optimized out>
+        info = 0x7ffbd24367e0 <threads>
+        __PRETTY_FUNCTION__ = "static DWORD cygthread::stub(void*)"
+#5  0x00007ffbd2245c86 in _cygtls::call2 (this=0x13ece00, func=0x7ffbd2244fe0 <cygthread::stub(void*)>, arg=0x7ffbd24367e0 <threads>, buf=buf@entry=0x13ecd20) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:41
+        res = <optimized out>
+#6  0x00007ffbd2245d34 in _cygtls::call (func=<optimized out>, arg=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygtls.cc:28
+        buf = '\000' <repeats 232 times>...
+        protect = <optimized out>
+#7  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#8  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#9  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 4 (Thread 9928.0x7e84):
+#0  0x00007ffc213d0b14 in ntdll!ZwWaitForWorkViaWorkerFactory () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc21382e17 in ntdll!TpReleaseCleanupGroupMembers () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#2  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#3  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#4  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 3 (Thread 9928.0x8120):
+#0  0x00007ffc213d0b14 in ntdll!ZwWaitForWorkViaWorkerFactory () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc21382e17 in ntdll!TpReleaseCleanupGroupMembers () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#2  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#3  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#4  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 2 (Thread 9928.0x7e54):
+#0  0x00007ffc213d0b14 in ntdll!ZwWaitForWorkViaWorkerFactory () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc21382e17 in ntdll!TpReleaseCleanupGroupMembers () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#2  0x00007ffc20d07614 in KERNEL32!BaseThreadInitThunk () from /cygdrive/c/Windows/System32/KERNEL32.DLL
+No symbol table info available.
+#3  0x00007ffc213826a1 in ntdll!RtlUserThreadStart () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#4  0x0000000000000000 in ?? ()
+No symbol table info available.
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+Thread 1 (Thread 9928.0x77ac):
+#0  0x00007ffc213cdc14 in ntdll!ZwWaitForMultipleObjects () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#1  0x00007ffc1ea80590 in WaitForMultipleObjectsEx () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#2  0x00007ffc1ea8048e in WaitForMultipleObjects () from /cygdrive/c/Windows/System32/KERNELBASE.dll
+No symbol table info available.
+#3  0x00007ffbd2245e8a in cygwait (object=<optimized out>, timeout=timeout@entry=0x0, mask=mask@entry=3) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/cygwait.cc:75
+        res = <optimized out>
+        num = 2
+        wait_objects = {0x778, 0x148, 0x7ffbd245b7e0 <sync_proc_subproc>, 0xffff94d0}
+        thread = 0xa00000010
+        thread_waiting = <optimized out>
+        sig_n = <optimized out>
+        cancel_n = 1
+        timeout_n = 259
+#4  0x00007ffbd22ec39f in wait4 (intpid=21945, status=<optimized out>, options=0, r=0x0) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/wait.cc:80
+        res = <optimized out>
+        waitfor = <optimized out>
+        w = 0x7ffffe1d0
+        __PRETTY_FUNCTION__ = "pid_t wait4(int, int*, int, rusage*)"
+#5  0x00007ffbd22c52e1 in child_info_spawn::worker (this=<optimized out>, this@entry=0x7ffbd246b8a0 <ch_spawn>, prog_arg=<optimized out>, prog_arg@entry=0x80002ea50 "/bin/sh", argv=argv@entry=0x7ffffa960, envp=envp@entry=0xa00000160, mode=512, mode@entry=4608, in__stdin=<optimized out>, in__stdin@entry=-1, in__stdout=<optimized out>, in__stdout@entry=-1) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/spawn.cc:915
+        err = 0
+        ext = <optimized out>
+        len = <optimized out>
+        fileno_stdout = <optimized out>
+        pi = {hProcess = 0x740, hThread = 0x720, dwProcessId = 23048, dwThreadId = 5076}
+        switch_user = <optimized out>
+        ac = <optimized out>
+        jobinfo = {PerProcessUserTimeLimit = {{LowPart = 14352384, HighPart = 0}, u = {LowPart = 14352384, HighPart = 0}, QuadPart = 14352384}, PerJobUserTimeLimit = {{LowPart = 0, HighPart = 0}, u = {LowPart = 0, HighPart = 0}, QuadPart = 0}, LimitFlags = 64, MinimumWorkingSetSize = 1310728, MaximumWorkingSetSize = 7012352, ActiveProcessLimit = 4294941561, Affinity = 8589934602, PriorityClass = 557167559, SchedulingClass = 32764}
+        ctty_pgid = <optimized out>
+        sa = <optimized out>
+        fileno_stdin = <optimized out>
+        synced = <optimized out>
+        chtype = _CH_SPAWN
+        is_in_job = 0
+        fileno_stderr = 2
+        no_pcon = <optimized out>
+        wcmd = 0x7ffff9550 L""
+        __sebastian = {_clemente = 0x7ffffa980, _cnt = 4294967296, ret = 140719539637568, frame = 34359712000}
+        loop = <optimized out>
+        rc = <optimized out>
+        res = 0
+        p_type_exec = <optimized out>
+        __PRETTY_FUNCTION__ = "int child_info_spawn::worker(const char*, const char* const*, const char* const*, int, int, int)"
+        newargv = {argv = 0x80002d8b0, calloced = 3, argc = 3, win16_exe = false}
+        cmd = {ix = 0, buf = 0x0, alloced = 0}
+        envblock = 0xa001c57e0 L"PATH=C:\\cygwin64\\usr\\local\\bin;C:\\cygwin64\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\libnvvp;C:\\Program Files\\Common Fil"...
+        real_path = {fileattr = 32, caseinsensitive = 64, fs = {status = {flags = 65472255, samba_version = 0, name_len = 255, fs_type = ntfs, is_remote_drive = 0, has_acls = 1, hasgood_inode = 1, caseinsensitive = 0, has_buggy_reopen = 0, has_buggy_fileid_dirinfo = 0, has_buggy_basic_info = 0, has_dos_filenames_only = 0}, sernum = 1712462442, fsn = "\000\000\000\000\000\000\000\000`\030p\000\001", '\000' <repeats 11 times>, "\245\b\000\000\000\000\000\000\066\000\000\000\373\177\000\000S\000\000\000\373\177\000\000\000\000\000\000\n\000\000\000\340\304B", '\000' <repeats 20 times>}, wide_path = 0x80002bf10 L"\\??\\C:\\cygwin64\\bin\\sh.exe", uni_path = {Length = 52, MaximumLength = 64, Buffer = 0x80002bf10 L"\\??\\C:\\cygwin64\\bin\\sh.exe"}, symlink_length = 1, path = 0x800020fe0 "C:\\cygwin64\\bin\\sh.exe", mount_flags = 213320, path_flags = 0, suffix = 0x800020ff2 ".exe", posix_path = 0x80002ea28 "/bin/sh", conv_handle = {hdl = 0x0, attribs = {_fai = {BasicInformation = {CreationTime = {{LowPart = 332607650, HighPart = 31024987}, u = {LowPart = 332607650, HighPart = 31024987}, QuadPart = 133251304856432802}, LastAccessTime = {{LowPart = 1337581817, HighPart = 31032257}, u = {LowPart = 1337581817, HighPart = 31032257}, QuadPart = 133282530273648889}, LastWriteTime = {{LowPart = 4030247296, HighPart = 31023124}, u = {LowPart = 4030247296, HighPart = 31023124}, QuadPart = 133243307030000000}, ChangeTime = {{LowPart = 99221899, HighPart = 31030830}, u = {LowPart = 99221899, HighPart = 31030830}, QuadPart = 133276400116957579}, FileAttributes = 32}, StandardInformation = {AllocationSize = {{LowPart = 856064, HighPart = 0}, u = {LowPart = 856064, HighPart = 0}, QuadPart = 856064}, EndOfFile = {{LowPart = 854035, HighPart = 0}, u = {LowPart = 854035, HighPart = 0}, QuadPart = 854035}, NumberOfLinks = 2, DeletePending = 0 '\000', Directory = 0 '\000'}, InternalInformation = {IndexNumber = {{LowPart = 1236727, HighPart = 327680}, u = {LowPart = 1236727, HighPart = 327680}, QuadPart = 1407374884790007}}, EaInformation = {EaSize = 76}, AccessInformation = {AccessFlags = 131208}, PositionInformation = {CurrentByteOffset = {{LowPart = 0, HighPart = 0}, u = {LowPart = 0, HighPart = 0}, QuadPart = 0}}, ModeInformation = {Mode = 0}, AlignmentInformation = {AlignmentRequirement = 3}, NameInformation = {FileNameLength = 40, FileName = L"\\"}}, _fattr3 = {type = 332607650, mode = 31024987, nlink = 1337581817, uid = 31032257, gid = 4030247296, filler1 = 31023124, size = 133276400116957579, used = 32, rdev = {specdata1 = 856064, specdata2 = 0}, fsid = 854035, fileid = 2, atime = {tv_sec = 1236727, tv_nsec = 327680}, mtime = {tv_sec = 76, tv_nsec = 131208}, ctime = {tv_sec = 0, tv_nsec = 0}}}}, error = 0, dev = {<_device> = {_name = 0x7ffbd24730a4 <msg1+19364> "", d = {devn = 195, devn_fh_devices = FH_FS, {minor = 195, major = 0}}, _native = 0x7ffbd24730a4 <msg1+19364> "", exists_func = 0x7ffbd2248610 <exists(device const&)>, _mode = 0, lives_in_dev = false, dev_on_fs = false, name_allocated = false, native_allocated = false}, <No data fields>}}
+        reset_sendsig = <optimized out>
+        tp = {c_buf_old = 0, w_buf_old = 0}
+        runpath = <optimized out>
+        c_flags = <optimized out>
+        si = {cb = 104, lpReserved = 0x0, lpDesktop = 0x0, lpTitle = 0x0, dwX = 0, dwY = 0, dwXSize = 0, dwYSize = 0, dwXCountChars = 0, dwYCountChars = 0, dwFillAttribute = 0, dwFlags = 256, wShowWindow = 0, cbReserved2 = 168, lpReserved2 = 0x7ffbd246b8a0 <ch_spawn> "", hStdInput = 0x198, hStdOutput = 0x138, hStdError = 0x2d8}
+        looped = <optimized out>
+        term_spawn_worker = {ptys_handle_set = {from_master_nat = 0x3c, input_available_event = 0x7ffc2135b90b <ntdll!RtlAllocateHeap+3947>, input_mutex = 0x50039, pipe_sw_mutex = 0x5f}, cons_handle_set = {input_handle = 0x6f46f0, output_handle = 0x7ffc2135b3c7 <ntdll!RtlAllocateHeap+2599>, input_mutex = 0xdb0000, output_mutex = 0x0}, ptys_need_cleanup = false, cons_need_cleanup = false, stdin_is_ptys = false, ptys_ttyp = 0x0}
+        system_call = {oldint = 0x0, oldquit = 0x0, oldmask = 128}
+#6  0x00007ffbd22c5e99 in spawnve (mode=4608, path=0x80002ea50 "/bin/sh", argv=0x7ffffa960, envp=0xa00000160) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/spawn.cc:985
+        empty_env = {0x0}
+        ret = <optimized out>
+        __PRETTY_FUNCTION__ = "int spawnve(int, const char*, const char* const*, const char* const*)"
+#7  0x00007ffbd22c6475 in spawnvp (mode=<optimized out>, file=<optimized out>, argv=0x7ffffa960) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/spawn.cc:1098
+        buf = {fileattr = 32, caseinsensitive = 64, fs = {status = {flags = 65472255, samba_version = 0, name_len = 255, fs_type = ntfs, is_remote_drive = 0, has_acls = 1, hasgood_inode = 1, caseinsensitive = 0, has_buggy_reopen = 0, has_buggy_fileid_dirinfo = 0, has_buggy_basic_info = 0, has_dos_filenames_only = 0}, sernum = 1712462442, fsn = "\000\000\000\000\000\000\000\000`\030p\000\001", '\000' <repeats 11 times>, "\245\b\000\000\000\000\000\000\066\000\000\000\373\177\000\000S\000\000\000\373\177\000\000\000\000\000\000\n\000\000\000\340\304B", '\000' <repeats 20 times>}, wide_path = 0x0, uni_path = {Length = 1, MaximumLength = 0, Buffer = 0x7ffffab80 L"桳⸠⼮潔汯⽳捳楲瑰⽳畤灭瑳捡\x2e6b桳㈠㤱㐴㸠畤灭瑳捡\x2e6b桳慟摲捵灯整\x2d72敨楬㈮㤱㐴漮瑵㈠☾1"}, symlink_length = 83, path = 0x800022940 "C:\\cygwin64\\bin\\sh.exe", mount_flags = 213256, path_flags = 0, suffix = 0x800022952 ".exe", posix_path = 0x80002ea50 "/bin/sh", conv_handle = {hdl = 0x0, attribs = {_fai = {BasicInformation = {CreationTime = {{LowPart = 332607650, HighPart = 31024987}, u = {LowPart = 332607650, HighPart = 31024987}, QuadPart = 133251304856432802}, LastAccessTime = {{LowPart = 1337581817, HighPart = 31032257}, u = {LowPart = 1337581817, HighPart = 31032257}, QuadPart = 133282530273648889}, LastWriteTime = {{LowPart = 4030247296, HighPart = 31023124}, u = {LowPart = 4030247296, HighPart = 31023124}, QuadPart = 133243307030000000}, ChangeTime = {{LowPart = 99221899, HighPart = 31030830}, u = {LowPart = 99221899, HighPart = 31030830}, QuadPart = 133276400116957579}, FileAttributes = 32}, StandardInformation = {AllocationSize = {{LowPart = 856064, HighPart = 0}, u = {LowPart = 856064, HighPart = 0}, QuadPart = 856064}, EndOfFile = {{LowPart = 854035, HighPart = 0}, u = {LowPart = 854035, HighPart = 0}, QuadPart = 854035}, NumberOfLinks = 2, DeletePending = 0 '\000', Directory = 0 '\000'}, InternalInformation = {IndexNumber = {{LowPart = 1236727, HighPart = 327680}, u = {LowPart = 1236727, HighPart = 327680}, QuadPart = 1407374884790007}}, EaInformation = {EaSize = 76}, AccessInformation = {AccessFlags = 131208}, PositionInformation = {CurrentByteOffset = {{LowPart = 0, HighPart = 0}, u = {LowPart = 0, HighPart = 0}, QuadPart = 0}}, ModeInformation = {Mode = 0}, AlignmentInformation = {AlignmentRequirement = 3}, NameInformation = {FileNameLength = 40, FileName = L"\\"}}, _fattr3 = {type = 332607650, mode = 31024987, nlink = 1337581817, uid = 31032257, gid = 4030247296, filler1 = 31023124, size = 133276400116957579, used = 32, rdev = {specdata1 = 856064, specdata2 = 0}, fsid = 854035, fileid = 2, atime = {tv_sec = 1236727, tv_nsec = 327680}, mtime = {tv_sec = 76, tv_nsec = 131208}, ctime = {tv_sec = 0, tv_nsec = 0}}}}, error = 0, dev = {<_device> = {_name = 0x7ffbd24730a4 <msg1+19364> "", d = {devn = 195, devn_fh_devices = FH_FS, {minor = 195, major = 0}}, _native = 0x7ffbd24730a4 <msg1+19364> "", exists_func = 0x7ffbd2248610 <exists(device const&)>, _mode = 0, lives_in_dev = false, dev_on_fs = false, name_allocated = false, native_allocated = false}, <No data fields>}}
+#8  0x00007ffbd22d3e33 in system (cmdstring=0x7ffffab80 "sh ../Tools/scripts/dumpstack.sh 21944 >dumpstack.sh_arducopter-heli.21944.out 2>&1") at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/syscalls.cc:2724
+        __sebastian = {_clemente = 0x0, _cnt = 0, ret = 140719539699296, frame = 34359716128}
+        res = -1
+        command = {0x7ffbd249bf59 <siglist+6233> "sh", 0x7ffbd249bf5c <siglist+6236> "-c", 0x7ffffab80 "sh ../Tools/scripts/dumpstack.sh 21944 >dumpstack.sh_arducopter-heli.21944.out 2>&1", 0x0}
+        __PRETTY_FUNCTION__ = "int system(const char*)"
+#9  0x00007ffbd2394a6b in _sigfe () at sigfe.s:36
+No locals.
+#10 0x00000001005dad1f in AP_HAL::run_command_on_ownpid(char const*) ()
+No symbol table info available.
+#11 0x000000010041e7e9 in _sig_fpe(int) ()
+No symbol table info available.
+#12 0x00007ffbd22629a5 in _cygtls::call_signal_handler (this=0x7ffffce00) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/exceptions.cc:1753
+        this_oldmask = 0
+        thissig = 8
+        thissi = {si_signo = 8, si_code = 17, si_pid = 21944, si_uid = 197609, si_errno = 0, {__pad = {5232593, 1, 0 <repeats 28 times>, 4294949104, 7}, _si_commune = {_si_code = 5232593, _si_read_handle = 0x1, _si_write_handle = 0x0, _si_process_handle = 0x0, {{_si_fd = 0, _si_flags = 0}, _si_pipe_unique_id = 0, _si_str = 0x0}}, {{si_sigval = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}, si_value = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}}, {si_tid = 0, si_overrun = 0}}, {si_status = 5232593, si_utime = 1, si_stime = 0}, si_addr = 0x1004fd7d1 <ModeAutorotate::run()+1057>, {__pad2 = {5232593, 1, 0 <repeats 28 times>}, si_cyg = 0x7ffffb8f0}}}
+        thisfunc = 0x10041e7c0 <_sig_fpe(int)>
+        thiscontext = 0x0
+        context_copy = {uc_mcontext = {p1home = 9196350441231745024, p2home = 9196350441231745024, p3home = 9196350441231745024, p4home = 9196350441231745024, p5home = 9196350441231745024, p6home = 9196350441231745024, ctxflags = 2141192192, mxcsr = 2141192192, cs = 0, ds = 32672, es = 0, fs = 32672, gs = 0, ss = 32672, eflags = 2141192192, dr0 = 9196350441231745024, dr1 = 9196350441231745024, dr2 = 9196350441231745024, dr3 = 9196350441231745024, dr6 = 9196350441231745024, dr7 = 9196350441231745024, rax = 9196350441231745024, rcx = 9196350441231745024, rdx = 9196350441231745024, rbx = 9196350441231745024, rsp = 9196350441231745024, rbp = 9196350441231745024, rsi = 9196350441231745024, rdi = 9196350441231745024, r8 = 9196350441231745024, r9 = 9196350441231745024, r10 = 9196350441231745024, r11 = 9196350441231745024, r12 = 9196350441231745024, r13 = 9196350441231745024, r14 = 9196350441231745024, r15 = 9196350441231745024, rip = 9196350441231745024, fpregs = {cwd = 0, swd = 32672, ftw = 0, fop = 32672, rip = 9196350441231745024, rdp = 9196350441231745024, mxcsr = 2141192192, mxcr_mask = 2141192192, st = {{significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}, {significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}, {significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}, {significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}, {significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}, {significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}, {significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}, {significand = {0, 32672, 0, 32672}, exponent = 0, padding = {32672, 0, 32672}}}, xmm = {{element = {2141192192, 2141192192, 2141192192, 2141192192}} <repeats 16 times>}, padding = {2141192192 <repeats 24 times>}}, vregs = {9196350441231745024 <repeats 17 times>, 140720865731247, 9196350441231745024, 9196350441231745024, 9196350441231745024, 9196350441231745024, 9196350441231745024, 9196350441231745024, 9196350441231745024, 9196350441231745024, 0, 0, 9196350441231745024 <repeats 12 times>, 0 <repeats 12 times>}, vcx = 0, dbc = 0, btr = 0, bfr = 0, etr = 0, efr = 0, oldmask = 0, cr2 = 0}, uc_link = 0x0, uc_sigmask = 0, uc_stack = {ss_sp = 0xb240b85ca7e3, ss_flags = 1, ss_size = 176}, uc_flags = 7012876288}
+        this_errno = -1
+        this_sa_flags = 0
+        __PRETTY_FUNCTION__ = "int _cygtls::call_signal_handler()"
+#13 0x00007ffbd22c052b in sig_send (p=<optimized out>, p@entry=0x0, si=..., tls=tls@entry=0x7ffffce00) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/sigproc.cc:785
+        rc = 0
+        its_me = <optimized out>
+        sendsig = 0x124
+        pack = {si = {si_signo = 8, si_code = 17, si_pid = 21944, si_uid = 197609, si_errno = 0, {__pad = {5232593, 1, 0 <repeats 28 times>, 4294949104, 7}, _si_commune = {_si_code = 5232593, _si_read_handle = 0x1, _si_write_handle = 0x0, _si_process_handle = 0x0, {{_si_fd = 0, _si_flags = 0}, _si_pipe_unique_id = 0, _si_str = 0x0}}, {{si_sigval = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}, si_value = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}}, {si_tid = 0, si_overrun = 0}}, {si_status = 5232593, si_utime = 1, si_stime = 0}, si_addr = 0x1004fd7d1 <ModeAutorotate::run()+1057>, {__pad2 = {5232593, 1, 0 <repeats 28 times>}, si_cyg = 0x7ffffb8f0}}}, pid = 21944, sigtls = 0x7ffffce00, mask = 0x7ffffdbd0, {wakeup = 0x0, thread_handle = 0x0, next = 0x0}}
+        communing = <optimized out>
+        wait_for_completion = <optimized out>
+        __PRETTY_FUNCTION__ = "sigset_t sig_send(_pinfo*, siginfo_t&, _cygtls*)"
+        pending = 9196350441231745024
+        leader = <optimized out>
+        packsize = 176
+        nb = 176
+        res = <optimized out>
+#14 0x00007ffbd2260c13 in exception::handle (e=0x7ffffc630, frame=<optimized out>, in=<optimized out>, dispatch=<optimized out>) at /usr/src/debug/cygwin-3.4.6-1/winsup/cygwin/exceptions.cc:770
+        debugging = 0
+        me = @0x7ffffce00: {local_clib = {_errno = 0, _stdin = 0x7ffbd251ede0 <__sf>, _stdout = 0x7ffbd251ee98 <__sf+184>, _stderr = 0x7ffbd251ef50 <__sf+368>, _inc = 0, _emergency = '\000' <repeats 24 times>, _reserved_1 = 0, _locale = 0x0, _reserved_0 = 0, __cleanup = 0x7ffbd2245760 <_cygtls::cleanup_early(_reent*)>, _result = 0x0, _result_k = 0, _p5s = 0xa0006ec80, _freelist = 0xa000663c0, _cvtlen = 0, _cvtbuf = 0x0, _new = {_reent = {_reserved_2 = 0, _strtok_last = 0x0, _asctime_buf = '\000' <repeats 25 times>, _localtime_buf = {__tm_sec = 0, __tm_min = 0, __tm_hour = 0, __tm_mday = 0, __tm_mon = 0, __tm_year = 0, __tm_wday = 0, __tm_yday = 0, __tm_isdst = 0}, _gamma_signgam = 0, _rand_next = 1, _r48 = {_seed = {13070, 43981, 4660}, _mult = {58989, 57068, 5}, _add = 11}, _mblen_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _mbtowc_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _wctomb_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _l64a_buf = "\000\000\000\000\000\000\000", _signal_buf = '\000' <repeats 23 times>, _getdate_err = 0, _mbrlen_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _mbrtowc_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _mbsrtowcs_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _wcrtomb_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _wcsrtombs_state = {__count = 0, __value = {__wch = 0, __wchb = "\000\000\000"}}, _h_errno = 0}, _reserved_5 = {_reserved_3 = {0x0 <repeats 11 times>, 0x1 <error: Cannot access memory at address 0x1>, 0xe66d1234abcd330e <error: Cannot access memory at address 0xe66d1234abcd330e>, 0xb0005deec <error: Cannot access memory at address 0xb0005deec>, 0x0 <repeats 16 times>}, _reserved_4 = {0 <repeats 30 times>}}}, _reserved_6 = 0x0, _reserved_7 = {_next = 0x0, _ind = 0, _fns = {0x0 <repeats 32 times>}, _on_exit_args = {_fnargs = {0x0 <repeats 32 times>}, _dso_handle = {0x0 <repeats 32 times>}, _fntypes = 0, _is_cxa = 0}}, _sig_func = 0x0}, locals = {pass = '\000' <repeats 127 times>, dl_error = 0, dl_buffer = '\000' <repeats 255 times>, mntbuf = {mnt_fsname = 0x0, mnt_dir = 0x0, mnt_type = 0x0, mnt_opts = 0x0, mnt_freq = 0, mnt_passno = 0}, iteration = 0, available_drives = 0, mnt_type = '\000' <repeats 79 times>, mnt_opts = '\000' <repeats 79 times>, mnt_fsname = '\000' <repeats 259 times>, mnt_dir = '\000' <repeats 259 times>, select = {sockevt = 0x334, max_w4 = 64, ser_num = 0xa0006f090, w4 = 0xa0006f1a0}, strerror_buf = '\000' <repeats 25 times>, strerror_r_buf = '\000' <repeats 25 times>, timezone_buf = '\000' <repeats 19 times>, signamebuf = '\000' <repeats 28 times>, ntoa_buf = 0x0, hostent_buf = 0x0, protoent_buf = 0x0, servent_buf = 0x0, unknown_thread_name = '\000' <repeats 29 times>, setmode_file = 0, setmode_mode = 0, cw_timer = 0x340, pathbufs = {{{c_cnt = 0, w_cnt = 1}, _counters = 4294967296}, tls_heap = 0x1550000, c_buf = {0x1550720 "C:\\cygwin64\\usr\\local\\bin;C:\\cygwin64\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\libnvvp;C:\\Program Files\\Common Files\\Or"..., 0x1558730 "\\??\\C:\\cygwin64\\lib\\lapack", 0x1570750 "C:\\Users\\sjo\\.dotnet", 0x1598780 "C:\\cygwin64\\lib\\lapack", 0x15a0790 "D:\\TandemSourceCode\\ardupilot\\ArduCopter", 0x15a87a0 "D:\\TandemSourceCode\\ardupilot\\ArduCopter", 0x0 <repeats 44 times>}, w_buf = {0x1560740 L"\\\\?\\C:\\cygwin64\\bin\\sh.exe", 0x1578760 L"甯牳氯扩氯灡捡k慲\x206d楆敬⽳噎䑉䅉䜠啐䌠浯異楴杮吠潯歬瑩䌯䑕⽁ㅶ⸱⼶楬b摵e⽲楢nscripts\\dumpstack.sh", 0x1588770 L"\\??\\C:\\cygwin64\\bin\\sh.exe", 0x15b07b0 L"\\??\\C:\\cygwin64\\lib\\lapack", 0x0 <repeats 46 times>}}, ttybuf = '\000' <repeats 31 times>}, func = 0x10041e7c0 <_sig_fpe(int)>, saved_errno = -1, sa_flags = 0, oldmask = 0, deltamask = 128, errno_addr = 0x7ffffce00, sigmask = 524416, sigwait_mask = 0, altstack = {ss_sp = 0x0, ss_flags = 2, ss_size = 0}, sigwait_info = 0x0, signal_arrived = 0x300, will_wait_for_signal = false, context = {uc_mcontext = {p1home = 0, p2home = 0, p3home = 0, p4home = 0, p5home = 0, p6home = 0, ctxflags = 0, mxcsr = 0, cs = 0, ds = 0, es = 0, fs = 0, gs = 0, ss = 0, eflags = 0, dr0 = 0, dr1 = 0, dr2 = 0, dr3 = 0, dr6 = 0, dr7 = 0, rax = 0, rcx = 0, rdx = 0, rbx = 0, rsp = 0, rbp = 0, rsi = 0, rdi = 0, r8 = 0, r9 = 0, r10 = 0, r11 = 0, r12 = 0, r13 = 0, r14 = 0, r15 = 0, rip = 0, fpregs = {cwd = 0, swd = 0, ftw = 0, fop = 0, rip = 0, rdp = 0, mxcsr = 0, mxcr_mask = 0, st = {{significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}, {significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}, {significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}, {significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}, {significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}, {significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}, {significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}, {significand = {0, 0, 0, 0}, exponent = 0, padding = {0, 0, 0}}}, xmm = {{element = {0, 0, 0, 0}} <repeats 16 times>}, padding = {0 <repeats 24 times>}}, vregs = {0 <repeats 52 times>}, vcx = 0, dbc = 0, btr = 0, bfr = 0, etr = 0, efr = 0, oldmask = 0, cr2 = 0}, uc_link = 0x0, uc_sigmask = 0, uc_stack = {ss_sp = 0x0, ss_flags = 0, ss_size = 0}, uc_flags = 0}, thread_id = 30636, infodata = {si_signo = 8, si_code = 17, si_pid = 21944, si_uid = 197609, si_errno = 0, {__pad = {5232593, 1, 0 <repeats 28 times>, 4294949104, 7}, _si_commune = {_si_code = 5232593, _si_read_handle = 0x1, _si_write_handle = 0x0, _si_process_handle = 0x0, {{_si_fd = 0, _si_flags = 0}, _si_pipe_unique_id = 0, _si_str = 0x0}}, {{si_sigval = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}, si_value = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}}, {si_tid = 0, si_overrun = 0}}, {si_status = 5232593, si_utime = 1, si_stime = 0}, si_addr = 0x1004fd7d1 <ModeAutorotate::run()+1057>, {__pad2 = {5232593, 1, 0 <repeats 28 times>}, si_cyg = 0x7ffffb8f0}}}, tid = 0xa00000010, _ctinfo = 0x0, andreas = 0x7ffff9a70, wq = {pid = 21945, options = 0, status = 0, ev = 0x778, rusage = 0x0, next = 0x0, thread_ev = 0x778}, sig = 0, incyg = 1, spinning = 0, stacklock = 0, stackptr = 0x7ffffe220, stack = {4301106463, 17097171127, 0 <repeats 254 times>}, initialized = 3345159999}
+        si = {si_signo = 8, si_code = 17, si_pid = 0, si_uid = 0, si_errno = 0, {__pad = {5232593, 1, 0 <repeats 28 times>, 4294949104, 7}, _si_commune = {_si_code = 5232593, _si_read_handle = 0x1, _si_write_handle = 0x0, _si_process_handle = 0x0, {{_si_fd = 0, _si_flags = 0}, _si_pipe_unique_id = 0, _si_str = 0x0}}, {{si_sigval = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}, si_value = {sival_int = 5232593, sival_ptr = 0x1004fd7d1 <ModeAutorotate::run()+1057>}}, {si_tid = 0, si_overrun = 0}}, {si_status = 5232593, si_utime = 1, si_stime = 0}, si_addr = 0x1004fd7d1 <ModeAutorotate::run()+1057>, {__pad2 = {5232593, 1, 0 <repeats 28 times>}, si_cyg = 0x7ffffb8f0}}}
+        __PRETTY_FUNCTION__ = "static int exception::handle(EXCEPTION_RECORD*, void*, CONTEXT*, PDISPATCHER_CONTEXT)"
+        framep = 0x424623
+        exc = {framep = 0x424623, ctx = 0x7ffffc140, e = 0x7ffffc630, h = 0x0}
+#15 0x00007ffc213d241f in ntdll!.chkstk () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#16 0x00007ffc213814a4 in ntdll!RtlRaiseException () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#17 0x00007ffc213d0f4e in ntdll!KiUserExceptionDispatcher () from /cygdrive/c/Windows/SYSTEM32/ntdll.dll
+No symbol table info available.
+#18 0x00000001004fd7d1 in ModeAutorotate::run() ()
+No symbol table info available.
+#19 0x0000000100475901 in AP_Scheduler::run(unsigned int) ()
+No symbol table info available.
+#20 0x0000000100475d7d in AP_Scheduler::loop() ()
+No symbol table info available.
+#21 0x0000000100431fe2 in AP_Vehicle::loop() ()
+No symbol table info available.
+#22 0x000000010069570b in HAL_SITL::run(int, char* const*, AP_HAL::HAL::Callbacks*) const ()
+No symbol table info available.
+#23 0x00000001006cdd4b in main ()
+No symbol table info available.
+A debugging session is active.
+
+	Inferior 1 [process 9928] will be detached.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]
+[Inferior 1 (process 9928) detached]
